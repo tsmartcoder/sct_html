@@ -1,0 +1,82 @@
+.sct_carousel_1 .carousel-item {
+  background: url(https://i.postimg.cc/rwcCp06f/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sct_carousel_1 .row {
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sct_carousel_1 .carousel-indicators {
+  right: initial;
+  bottom: 5%;
+}
+.sct_carousel_1 .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ddc2b9;
+  margin: 10px;
+  padding: 0;
+  border: none;
+  position: relative;
+}
+.sct_carousel_1 .carousel-indicators .active {
+  background: #fff;
+}
+.sct_carousel_1 .carousel-indicators .active::after {
+  position: absolute;
+  content: "";
+  left: -10px;
+  top: -10px;
+  border: 2px solid #ddc2b9;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.sct_carousel_1 .carousel-caption {
+  position: initial;
+  text-align: left;
+}
+.sct_carousel_1 .carousel-caption h2 {
+  font-size: 45px;
+  line-height: 50px;
+  color: #222222;
+  margin: 0;
+}
+.sct_carousel_1 .carousel-caption h5 {
+  position: relative;
+  font-size: 14px;
+  line-height: 24px;
+  color: #c32929;
+  margin: 0;
+  padding-left: 60px;
+}
+.sct_carousel_1 .carousel-caption h5::before {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 3px;
+  background: #c32929;
+  top: 50%;
+  left: 0;
+}
+.sct_carousel_1 .carousel-caption p {
+  position: relative;
+  font-size: 14px;
+  line-height: 24px;
+  color: #222222;
+  margin: 0;
+}
+.sct_carousel_1 .carousel-caption p::before {
+  position: absolute;
+  content: "";
+  width: 90px;
+  height: 3px;
+  background: #222222;
+  bottom: 0;
+  left: 0;
+}

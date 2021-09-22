@@ -1,54 +1,51 @@
 .sct_menu_bar_1 {
-	&__content {
-		.navbar-nav {
-			.nav-link {
-				padding: 0.5rem;
-			}
-
-			&.navbar-right {
-				flex-direction: row;
-
-				@media (max-width: 991px) {
-					justify-content: space-around;
-				}
-
-				.dropdown-menu {
-					position: absolute;
-					left: initial;
-					right: 0;
-				}
-			}
+	.navbar-nav {
+		.nav-link {
+			padding: 0.5rem;
 		}
 
-		ul {
-			li {
-				a {
-					font-weight: 500;
-					font-size: 14px;
-					line-height: 24px;
-					color: #222222;
-				}
-			}
-		}
+		&.navbar-right {
+			flex-direction: row;
 
-		.active {
-			position: relative;
-			&::after {
+			@media (max-width: 991px) {
+				justify-content: space-around;
+			}
+
+			.dropdown-menu {
 				position: absolute;
-				content: "";
-				bottom: 4%;
-				left: 7px;
-				width: 30px;
-				height: 2px;
-				background: #222222;
+				left: initial;
+				right: 0;
 			}
-		}
-
-		.navbar-toggler:focus {
-			box-shadow: none;
 		}
 	}
 
+	ul {
+		li {
+			a {
+				font-weight: 500;
+				font-size: 14px;
+				line-height: 24px;
+				color: #222222;
+			}
+		}
+	}
+
+	.active {
+		position: relative;
+		&::after {
+			position: absolute;
+			content: "";
+			bottom: 4%;
+			left: 7px;
+			width: 30px;
+			height: 2px;
+			background: #222222;
+		}
+	}
+
+	.navbar-toggler:focus {
+		box-shadow: none;
+	}
 	&__notification {
 		position: absolute;
 		right: 5px;
@@ -62,5 +59,4 @@
 		padding: 0 3px;
 		border-radius: 50%;
 	}
-	
 }
