@@ -1,0 +1,43 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_2__img {
+  text-align: center;
+  background: #f5e6e0;
+}
+.sct_card_2__img img {
+  max-width: 100%;
+}
+.sct_card_2__desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.sct_card_2__desc a {
+  text-decoration: none;
+  display: block;
+}
+.sct_card_2__desc__category {
+  font-size: 14px;
+  line-height: 24px;
+  color: #767676;
+}
+.sct_card_2__desc__title,
+.sct_card_2__desc p {
+  font-size: 16px;
+  line-height: 21px;
+  color: #222222;
+  margin: 0;
+}
+.sct_card_2 button {
+  border: none;
+  padding: 0;
+  background: transparent;
+}
