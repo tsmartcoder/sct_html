@@ -1,0 +1,141 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_footer_1__section {
+  background: #e4e4e4;
+}
+
+/* widget_1 */
+.sct_widget_1 {
+  padding: 40px 20px;
+}
+.sct_widget_1 address {
+  font-size: 14px;
+  line-height: 24px;
+  color: #222222;
+  margin: 30px 0;
+}
+.sct_widget_1 address:last-child {
+  margin-top: 0;
+}
+.sct_widget_1 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.sct_widget_1 ul li {
+  padding-right: 20px;
+}
+.sct_widget_1 ul li:last-child {
+  padding-right: 0;
+}
+.sct_widget_1 ul li a {
+  color: #222222;
+}
+.sct_widget_1 ul li a:hover {
+  color: #767676;
+}
+
+/* widget_2 , widget_3, widget_4  */
+.sct_widget_2 {
+  padding: 40px 10px;
+}
+.sct_widget_2 h2 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #222222;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 29px;
+}
+.sct_widget_2 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sct_widget_2 ul li a {
+  font-size: 14px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #222222;
+  position: relative;
+  display: block;
+}
+.sct_widget_2 ul li a::after {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 3px;
+  background: #222222;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.sct_widget_2 ul li a:hover::after {
+  opacity: 1;
+}
+
+/* widget_5 */
+.sct_widget_3 {
+  padding: 40px 10px;
+}
+.sct_widget_3 h2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #222222;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.sct_widget_3 p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #222222;
+  margin: 0;
+}
+.sct_widget_3__inputSection {
+  display: table;
+  background: #ffffff;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.sct_widget_3__inputSection input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #222222;
+}
+.sct_widget_3__inputSection button {
+  font-size: 14px;
+  line-height: 24px;
+  color: #222222;
+  border: none;
+  background: transparent;
+  padding: 10px;
+  text-transform: capitalize;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.sct_widget_3__inputSection button:hover {
+  background: #ededed;
+  color: #000000;
+}
+.sct_widget_3 span {
+  font-size: 15px;
+  line-height: 20px;
+  color: #222222;
+  margin-bottom: 13px;
+}
+.sct_widget_3 img {
+  display: block;
+}

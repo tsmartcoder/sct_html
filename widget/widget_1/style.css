@@ -2,20 +2,21 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.sct_footer_1 {
+.sct_widget_1 {
   background: #e4e4e4;
   margin: 20px auto;
+  padding: 40px 30px;
 }
-.sct_footer_1 address {
+.sct_widget_1 address {
   font-size: 14px;
   line-height: 24px;
   color: #222222;
   margin: 30px 0;
 }
-.sct_footer_1 address:last-child {
+.sct_widget_1 address:last-child {
   margin-top: 0;
 }
-.sct_footer_1 ul {
+.sct_widget_1 ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -23,16 +24,16 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
-.sct_footer_1 ul li {
+.sct_widget_1 ul li {
   padding-right: 10px;
   padding-right: 36px;
 }
-.sct_footer_1 ul li:last-child {
+.sct_widget_1 ul li:last-child {
   padding-right: 0;
 }
-.sct_footer_1 ul li a {
+.sct_widget_1 ul li a {
   color: #222222;
 }
-.sct_footer_1 ul li a:hover {
+.sct_widget_1 ul li a:hover {
   color: #767676;
 }

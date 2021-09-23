@@ -1,0 +1,68 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_widget_3 {
+	background: #e4e4e4;
+	padding: 40px 30px;
+
+	h2 {
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 24px;
+		color: #222222;
+		margin: 0;
+		margin-bottom: 30px;
+	}
+
+	p {
+		font-size: 14px;
+		line-height: 24px;
+		color: #222222;
+		margin: 0;
+	}
+
+	&__inputSection {
+		display: table;
+		background: #ffffff;
+		margin-top: 15px;
+		margin-bottom: 40px;
+
+		input {
+			border: none;
+			outline: none;
+			padding: 10px;
+			font-size: 14px;
+			line-height: 24px;
+			color: #222222;
+		}
+
+		button {
+			font-size: 14px;
+			line-height: 24px;
+			color: #222222;
+			border: none;
+			background: transparent;
+			padding: 10px;
+			text-transform: capitalize;
+			cursor: pointer;
+			transition: 1s;
+
+			&:hover {
+				background: #ededed;
+				color: #000000;
+			}
+		}
+	}
+
+	span {
+		font-size: 15px;
+		line-height: 20px;
+		color: #222222;
+		margin-bottom: 13px;
+	}
+
+	img {
+		display: block;
+	}
+}
