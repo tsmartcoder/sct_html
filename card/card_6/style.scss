@@ -1,0 +1,44 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+.sct_card_6 {
+	&__imgSection {
+		position: relative;
+		background: #e7e7e7;
+		text-align: center;
+
+		img {
+			max-width: 100%;
+		}
+
+		&__svg {
+			position: absolute;
+			top: 5%;
+			right: 5%;
+			padding: 10px;
+			background: #ffffff;
+			border-radius: 50%;
+		}
+	}
+
+	&__desc {
+		a {
+			text-decoration: none;
+			display: block;
+		}
+
+		&__category {
+			font-size: 14px;
+			line-height: 24px;
+			color: #767676;
+		}
+
+		&__title,
+		p {
+			font-size: 16px;
+			line-height: 21px;
+			color: #222222;
+			margin: 0;
+		}
+	}
+}
