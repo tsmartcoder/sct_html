@@ -1,0 +1,30 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_widget_4 {
+  background: #222222;
+  padding: 40px 30px;
+}
+.sct_widget_4 h2 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 29px;
+}
+.sct_widget_4 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sct_widget_4 ul li a {
+  font-size: 14px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #ffffff;
+  position: relative;
+  display: block;
+}
