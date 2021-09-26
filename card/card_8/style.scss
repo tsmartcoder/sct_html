@@ -1,0 +1,30 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_8 {
+	text-align: center;
+
+	&__img {
+		background: #e7e7e7;
+
+      img {
+         @media (max-width:425px) {
+            width: 100%;
+         }
+      }
+
+	}
+
+	&__desc {
+		p {
+			font-weight: 600;
+			font-size: 16px;
+			line-height: 22px;
+         color: #222222;
+         text-align: center;
+         margin: 0;
+         margin-top: 20px;
+		}
+	}
+}
