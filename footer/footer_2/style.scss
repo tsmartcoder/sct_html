@@ -1,19 +1,98 @@
 body {
 	font-family: "Lato", sans-serif;
 }
-.sct_footer_1 {
+.sct_footer_2 {
 	&__section {
-		background: #e4e4e4;
+		background: #222222;
 	}
 }
+/* Call to action */
+
+.sct_callToAction_1 {
+	padding: 80px 0 100px 0;
+	text-align: center;
+
+	@media (max-width: 767px) {
+		padding: 40px 10px;
+	}
+
+	h2 {
+		font-weight: 600;
+		font-size: 26px;
+		line-height: 35px;
+		color: #ffffff;
+		text-transform: uppercase;
+		margin: 0;
+
+		@media (max-width: 767px) {
+			font-size: 20px;
+			line-height: 30px;
+		}
+	}
+
+	p {
+		font-size: 14px;
+		line-height: 24px;
+		color: #ffffff;
+		margin: 0;
+		padding: 16px 0;
+
+		@media (max-width: 767px) {
+			padding: 8px 0;
+		}
+	}
+
+	&__form {
+		display: flex;
+		justify-content: center;
+
+		input {
+			font-size: 14px;
+			line-height: 24px;
+			color: #e4e4e4;
+			padding: 0 20px;
+			border: none;
+			outline: none;
+			background: #353535;
+			width: 35%;
+			min-width: 140px;
+		}
+
+		button {
+			font-weight: 600;
+			font-size: 14px;
+			line-height: 24px;
+			color: #ffffff;
+			background: #5c5c5c;
+			text-transform: uppercase;
+			border: none;
+			padding: 20px 50px;
+			margin-left: 20px;
+			cursor: pointer;
+			transition: 0.5s;
+
+			&:hover {
+				background: #ffffff;
+				color: #5c5c5c;
+			}
+
+			@media (max-width: 767px) {
+				padding: 8px 30px;
+				margin-left: 0;
+			}
+		}
+	}
+}
+
 /* widget_1 */
 
 .sct_widget_1 {
 	padding: 40px 20px;
+
 	address {
 		font-size: 14px;
 		line-height: 24px;
-		color: #222222;
+		color: #ffffff;
 		margin: 30px 0;
 
 		&:last-child {
@@ -35,7 +114,7 @@ body {
 			}
 
 			a {
-				color: #222222;
+				color: #ffffff;
 				&:hover {
 					color: #767676;
 				}
@@ -52,7 +131,7 @@ body {
 	h2 {
 		font-weight: 600;
 		font-size: 18px;
-		color: #222222;
+		color: #ffffff;
 		line-height: 24px;
 		text-transform: uppercase;
 		margin: 0;
@@ -69,27 +148,9 @@ body {
 				font-size: 14px;
 				line-height: 30px;
 				text-decoration: none;
-				color: #222222;
+				color: #e4e4e4;
 				position: relative;
 				display: block;
-
-				&::after {
-					position: absolute;
-					content: "";
-					width: 30px;
-					height: 3px;
-					background: #222222;
-					bottom: 0;
-					left: 0;
-					opacity: 0;
-					transition: 0.3s ease-in-out;
-				}
-
-				&:hover {
-					&::after {
-						opacity: 1;
-					}
-				}
 			}
 		}
 	}
@@ -97,75 +158,40 @@ body {
 
 /* widget_5 */
 
-.sct_widget_3 {
-	padding: 40px 10px;
+.sct_widget_4 {
+	padding: 40px 30px;
 
 	h2 {
 		font-weight: 600;
 		font-size: 18px;
+		color: #ffffff;
 		line-height: 24px;
-		color: #222222;
+		text-transform: uppercase;
 		margin: 0;
-		margin-bottom: 30px;
+		margin-bottom: 29px;
 	}
 
-	p {
-		font-size: 14px;
-		line-height: 24px;
-		color: #222222;
+	ul {
 		margin: 0;
-	}
+		padding: 0;
+		list-style: none;
 
-	&__inputSection {
-		display: table;
-		background: #ffffff;
-		margin-top: 15px;
-		margin-bottom: 40px;
-
-		input {
-			border: none;
-			outline: none;
-			padding: 10px;
-			font-size: 14px;
-			line-height: 24px;
-			color: #222222;
-		}
-
-		button {
-			font-size: 14px;
-			line-height: 24px;
-			color: #222222;
-			border: none;
-			background: transparent;
-			padding: 10px;
-			text-transform: capitalize;
-			cursor: pointer;
-			transition: 1s;
-
-			&:hover {
-				background: #ededed;
-				color: #000000;
+		li {
+			a {
+				font-size: 14px;
+				line-height: 40px;
+				text-decoration: none;
+				color: #ffffff;
+				position: relative;
+				display: block;
 			}
 		}
-	}
-
-	span {
-		font-size: 15px;
-		line-height: 20px;
-		color: #222222;
-		margin-bottom: 13px;
-	}
-
-	img {
-		display: block;
 	}
 }
 
 /* copy right section */
 
-/* copy right section */
-
-.sct_copyright_1 {
+.sct_copyright_2 {
 	border-top: 1px solid #ffffff;
 	display: flex;
 	justify-content: space-around;
@@ -181,7 +207,7 @@ body {
 	a {
 		font-size: 14px;
 		line-height: 24px;
-		color: #222222;
+		color: #767676;
 		padding: 30px 0 28px 0;
 		text-decoration: none;
 	}
@@ -208,7 +234,7 @@ body {
 				a {
 					font-size: 14px;
 					line-height: 24px;
-					color: #222222;
+					color: #767676;
 					text-decoration: none;
 				}
 			}
