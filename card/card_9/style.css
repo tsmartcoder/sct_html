@@ -1,0 +1,71 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_9 {
+  background: url(https://i.postimg.cc/0QSBNBFn/pexels-lilartsy-1793059-removebg-preview.png) no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+.sct_card_9__desc {
+  position: relative;
+  z-index: 1;
+  padding: 25% 0;
+  text-align: center;
+}
+.sct_card_9__desc::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(195, 41, 41, 0.9);
+  z-index: -1;
+}
+.sct_card_9__desc h2 {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 84px;
+  text-transform: uppercase;
+  margin: 0;
+  color: #ffffff;
+}
+.sct_card_9__desc p {
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.sct_card_9__desc a {
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #222222;
+  display: table;
+  position: relative;
+  margin: 0 auto;
+  color: #222222;
+  background: #ffffff;
+  padding: 16px 60px 16px 80px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_9__desc a::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: #222222;
+  top: 50%;
+  left: 50px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.sct_card_9__desc a:hover {
+  background: #000;
+  color: white;
+}
+.sct_card_9__desc a:hover:before {
+  background: #fff;
+}
