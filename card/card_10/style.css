@@ -1,0 +1,35 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_10__img img {
+  width: 100%;
+}
+.sct_card_10__desc a {
+  font-size: 14px;
+  line-height: 24px;
+  color: #767676;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 20px;
+  display: inline-block;
+}
+@media (max-width: 425px) {
+  .sct_card_10__desc a {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+.sct_card_10__desc h3 {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+  color: #222222;
+  text-transform: capitalize;
+}
+@media (max-width: 425px) {
+  .sct_card_10__desc h3 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
