@@ -1,7 +1,7 @@
 body {
 	font-family: "Lato", sans-serif;
 }
-.sct_card_6 {
+.sct_card_7 {
 	&__img {
 		position: relative;
 		background: #e7e7e7;
@@ -13,14 +13,14 @@ body {
 				transform: scale(1.1);
 			}
 
-			.sct_card_6__img__details {
+			.sct_card_7__img__details {
 				bottom: 0;
 			}
 		}
 
 		img {
 			max-width: 100%;
-			transition: .3s;
+			transition: 0.3s;
 		}
 
 		&__svg {
@@ -28,15 +28,30 @@ body {
 			top: 5%;
 			right: 5%;
 			padding: 10px;
-			background: #FF6347;
+			background: #ff6347;
 			border-radius: 50%;
 			color: #ffffff;
 			cursor: pointer;
-			transition: .5s;
+			transition: 0.5s;
 
 			&:hover {
 				background: #ffffff;
 				color: #222222;
+			}
+		}
+
+		&__discount {
+			position: absolute;
+			top: 5%;
+			left: 0;
+			p {
+				font-size: 14px;
+				line-height: 24px;
+				color: #ffffff;
+				background: #ff6347;
+				margin: 0;
+				padding: 10px;
+				display: inline-block;
 			}
 		}
 
@@ -48,8 +63,8 @@ body {
 			position: absolute;
 			left: 0;
 			bottom: -100px;
-			transition: .3s;
-			
+			transition: 0.3s;
+
 			a {
 				background: #222222;
 				font-weight: 600;
@@ -62,7 +77,7 @@ body {
 				flex-grow: 1;
 
 				&:hover {
-					background: #FF6347;
+					background: #ff6347;
 				}
 			}
 		}

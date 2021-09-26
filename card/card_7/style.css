@@ -2,41 +2,55 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.sct_card_6__img {
+.sct_card_7__img {
   position: relative;
   background: #e7e7e7;
   text-align: center;
   overflow: hidden;
 }
-.sct_card_6__img:hover img {
+.sct_card_7__img:hover img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
-.sct_card_6__img:hover .sct_card_6__img__details {
+.sct_card_7__img:hover .sct_card_7__img__details {
   bottom: 0;
 }
-.sct_card_6__img img {
+.sct_card_7__img img {
   max-width: 100%;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-.sct_card_6__img__svg {
+.sct_card_7__img__svg {
   position: absolute;
   top: 5%;
   right: 5%;
   padding: 10px;
-  background: #FF6347;
+  background: #ff6347;
   border-radius: 50%;
   color: #ffffff;
   cursor: pointer;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-.sct_card_6__img__svg:hover {
+.sct_card_7__img__svg:hover {
   background: #ffffff;
   color: #222222;
 }
-.sct_card_6__img__details {
+.sct_card_7__img__discount {
+  position: absolute;
+  top: 5%;
+  left: 0;
+}
+.sct_card_7__img__discount p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #ff6347;
+  margin: 0;
+  padding: 10px;
+  display: inline-block;
+}
+.sct_card_7__img__details {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52,7 +66,7 @@ body {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-.sct_card_6__img__details a {
+.sct_card_7__img__details a {
   background: #222222;
   font-weight: 600;
   font-size: 14px;
@@ -65,20 +79,20 @@ body {
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
-.sct_card_6__img__details a:hover {
-  background: #FF6347;
+.sct_card_7__img__details a:hover {
+  background: #ff6347;
 }
-.sct_card_6__desc a {
+.sct_card_7__desc a {
   text-decoration: none;
   display: block;
 }
-.sct_card_6__desc__category {
+.sct_card_7__desc__category {
   font-size: 14px;
   line-height: 24px;
   color: #767676;
 }
-.sct_card_6__desc__title,
-.sct_card_6__desc p {
+.sct_card_7__desc__title,
+.sct_card_7__desc p {
   font-size: 16px;
   line-height: 21px;
   color: #222222;
