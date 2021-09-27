@@ -1,0 +1,102 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_11__img {
+  background: #ebeae8;
+  text-align: center;
+  position: relative;
+}
+.sct_card_11__img:hover .sct_card_11__img__details {
+  bottom: -8%;
+}
+.sct_card_11__img img {
+  max-width: 100%;
+}
+.sct_card_11__img__desc {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+.sct_card_11__img__desc span {
+  padding: 20px 10px;
+  background: #d6001c;
+  display: block;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+@media (max-width: 425px) {
+  .sct_card_11__img__desc span {
+    font-size: 10px;
+    line-height: 16px;
+    padding: 12px 8px;
+  }
+}
+.sct_card_11__img__details {
+  position: absolute;
+  bottom: -10%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  background: #ffffff;
+  padding: 40px 0 60px 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+  .sct_card_11__img__details {
+    padding: 20px 0 30px 0;
+    bottom: -5%;
+  }
+}
+.sct_card_11__img__details h2 {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 35px;
+  color: #222222;
+  margin: 0;
+  margin-bottom: 8px;
+}
+@media (max-width: 425px) {
+  .sct_card_11__img__details h2 {
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 0;
+  }
+}
+.sct_card_11__img__details a {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #222222;
+  text-decoration: none;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+@media (max-width: 425px) {
+  .sct_card_11__img__details a {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+.sct_card_11__img__details a::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 3px;
+  bottom: -3px;
+  left: 0;
+  background: #222222;
+}
+.sct_card_11__img__details a:hover {
+  color: #b22222;
+}
