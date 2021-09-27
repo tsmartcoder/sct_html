@@ -1,0 +1,85 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_13__img {
+  overflow: hidden;
+  position: relative;
+}
+.sct_card_13__img:hover .sct_card_13__img__features {
+  bottom: 24px;
+}
+@media (max-width: 425px) {
+  .sct_card_13__img:hover .sct_card_13__img__features {
+    bottom: 10px;
+  }
+}
+.sct_card_13__img__features {
+  padding: 10px 0;
+  background: transparent;
+  position: absolute;
+  left: 0;
+  bottom: -100px;
+  width: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.sct_card_13__img__features ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.sct_card_13__img__features ul li {
+  padding: 0 10px;
+}
+@media (max-width: 425px) {
+  .sct_card_13__img__features ul li {
+    padding: 0 6px;
+  }
+}
+.sct_card_13__img__features ul li a {
+  background: #ffffff;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+}
+.sct_card_13__img__features ul li a:hover {
+  background: red;
+}
+.sct_card_13__img__features ul li a:hover .card_13__icon {
+  color: #ffffff;
+}
+.sct_card_13__img__features ul li a svg {
+  color: black;
+}
+.sct_card_13__desc a {
+  text-decoration: none;
+  display: block;
+}
+.sct_card_13__desc__category {
+  font-size: 14px;
+  line-height: 24px;
+  color: #767676;
+}
+.sct_card_13__desc__title,
+.sct_card_13__desc p {
+  font-size: 16px;
+  line-height: 21px;
+  color: #222222;
+  margin: 0;
+}
