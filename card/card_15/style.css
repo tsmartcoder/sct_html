@@ -21,6 +21,9 @@ body {
 .sct_card_15__img img {
   max-width: 100%;
 }
+.sct_card_15__desc {
+  margin-top: 14px;
+}
 .sct_card_15__desc p {
   font-weight: 500;
   font-size: 16px;
