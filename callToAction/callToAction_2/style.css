@@ -1,0 +1,153 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_callToAction_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0 60px 0;
+}
+@media (max-width: 768px) {
+  .sct_callToAction_2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.sct_callToAction_2__socialArea {
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .sct_callToAction_2__socialArea {
+    margin-bottom: 30px;
+  }
+}
+.sct_callToAction_2__socialArea h2 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  padding-bottom: 25px;
+}
+@media (max-width: 425px) {
+  .sct_callToAction_2__socialArea h2 {
+    font-size: 16px;
+    line-height: 18px;
+    padding-bottom: 15px;
+  }
+}
+.sct_callToAction_2__socialArea ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.sct_callToAction_2__socialArea ul li {
+  padding-right: 36px;
+}
+.sct_callToAction_2__socialArea ul li:last-child {
+  padding-right: 0;
+}
+.sct_callToAction_2__socialArea ul li a {
+  color: #222222;
+}
+.sct_callToAction_2__socialArea ul li a:hover {
+  color: #767676;
+}
+.sct_callToAction_2__signupArea {
+  text-align: center;
+}
+.sct_callToAction_2__signupArea h2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #222222;
+  text-transform: capitalize;
+  margin: 0;
+}
+@media (max-width: 425px) {
+  .sct_callToAction_2__signupArea h2 {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+.sct_callToAction_2__signupArea p {
+  font-size: 14px;
+  line-height: 16px;
+  color: #767676;
+  margin: 0;
+  padding: 16px 0;
+}
+@media (max-width: 767px) {
+  .sct_callToAction_2__signupArea p {
+    padding: 8px 0;
+  }
+}
+@media (max-width: 425px) {
+  .sct_callToAction_2__signupArea p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+.sct_callToAction_2__signupArea__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.sct_callToAction_2__signupArea__form input {
+  font-size: 14px;
+  line-height: 24px;
+  color: #767676;
+  padding: 20px 0 20px 20px;
+  border: 1px solid #e4e4e4;
+  outline: none;
+  width: 50%;
+  min-width: 140px;
+}
+@media (max-width: 768px) {
+  .sct_callToAction_2__signupArea__form input {
+    padding: 10px 0 10px 10px;
+  }
+}
+.sct_callToAction_2__signupArea__form button {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #222222;
+  text-transform: uppercase;
+  border: none;
+  padding: 20px 50px;
+  margin-left: 20px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+@media (max-width: 768px) {
+  .sct_callToAction_2__signupArea__form button {
+    padding: 10px 30px;
+  }
+}
+.sct_callToAction_2__signupArea__form button:hover {
+  background: #deb887;
+  color: #5c5c5c;
+}
+@media (max-width: 767px) {
+  .sct_callToAction_2__signupArea__form button {
+    padding: 8px 30px;
+    margin-left: 0;
+  }
+}

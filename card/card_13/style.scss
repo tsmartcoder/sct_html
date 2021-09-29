@@ -11,9 +11,9 @@ body {
 			.sct_card_13__img__features {
 				bottom: 24px;
 
-                    @media (max-width: 425px) {
-                         bottom: 10px;
-                    }
+				@media (max-width: 425px) {
+					bottom: 10px;
+				}
 			}
 		}
 
@@ -67,6 +67,8 @@ body {
 	}
 
 	&__desc {
+		margin-top: 14px;
+
 		a {
 			text-decoration: none;
 			display: block;
