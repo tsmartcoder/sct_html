@@ -35,6 +35,9 @@ body {
   padding: 10px;
   display: inline-block;
 }
+.sct_card_12__desc {
+  margin-top: 14px;
+}
 .sct_card_12__desc a {
   text-decoration: none;
   display: block;
