@@ -5,6 +5,9 @@ body {
 .sct_card_10__img img {
   width: 100%;
 }
+.sct_card_10__desc {
+  margin-top: 14px;
+}
 .sct_card_10__desc a {
   font-size: 14px;
   line-height: 24px;
