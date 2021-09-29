@@ -12,16 +12,40 @@ body {
           justify-content: flex-end;
   position: relative;
 }
+@media (max-width: 768px) {
+  .sct_card_1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 20px 0;
+    border-radius: 7px;
+  }
+}
 .sct_card_1__desc {
   position: absolute;
   left: 40px;
   bottom: 40px;
+}
+@media (max-width: 768px) {
+  .sct_card_1__desc {
+    position: initial;
+  }
 }
 .sct_card_1__desc span {
   font-size: 14px;
   line-height: 24px;
   text-transform: uppercase;
   color: #222222;
+}
+@media (max-width: 425px) {
+  .sct_card_1__desc span {
+    font-size: 12px;
+    line-height: 18px;
+  }
 }
 .sct_card_1__desc h2 {
   font-size: 26px;
@@ -31,6 +55,12 @@ body {
   font-weight: normal;
   margin: 0;
 }
+@media (max-width: 425px) {
+  .sct_card_1__desc h2 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
 .sct_card_1__desc a {
   font-size: 14px;
   line-height: 24px;
@@ -38,6 +68,12 @@ body {
   color: #222222;
   text-decoration: none;
   position: relative;
+}
+@media (max-width: 425px) {
+  .sct_card_1__desc a {
+    font-size: 10px;
+    line-height: 16px;
+  }
 }
 .sct_card_1__desc a::after {
   position: absolute;
@@ -47,6 +83,12 @@ body {
   bottom: -3px;
   left: 0;
   background: #222222;
+}
+@media (max-width: 425px) {
+  .sct_card_1__desc a::after {
+    width: 30px;
+    height: 2px;
+  }
 }
 .sct_card_1__img {
   max-width: 40%;
