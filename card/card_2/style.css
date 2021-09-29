@@ -19,6 +19,7 @@ body {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  padding-top: 16px;
 }
 .sct_card_2__desc a {
   text-decoration: none;
@@ -40,4 +41,10 @@ body {
   border: none;
   padding: 0;
   background: transparent;
+}
+.sct_card_2 button svg {
+  color: #767676;
+}
+.sct_card_2 button svg:hover {
+  color: red;
 }

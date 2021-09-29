@@ -15,6 +15,7 @@ body {
 		display: flex;
 		justify-content: space-between;
 		align-items: flex-start;
+		padding-top: 16px;
 
 		a {
 			text-decoration: none;
@@ -40,5 +41,13 @@ body {
 		border: none;
 		padding: 0;
 		background: transparent;
+
+		svg {
+			color: #767676;
+
+			&:hover {
+				color: red;
+			}
+		}
 	}
 }
