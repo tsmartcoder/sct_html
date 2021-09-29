@@ -7,7 +7,7 @@ body {
   position: relative;
 }
 .sct_card_13__img:hover .sct_card_13__img__features {
-  bottom: 24px;
+  bottom: 10px;
 }
 @media (max-width: 425px) {
   .sct_card_13__img:hover .sct_card_13__img__features {
