@@ -20,23 +20,28 @@ body {
 
 		img {
 			max-width: 100%;
-			transition: .3s;
+			transition: 0.3s;
 		}
 
-		&__svg {
+		&__favorite {
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			background: #ffffff;
 			position: absolute;
 			top: 5%;
 			right: 5%;
-			padding: 10px;
-			background: #FF6347;
-			border-radius: 50%;
-			color: #ffffff;
-			cursor: pointer;
-			transition: .5s;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			transition: 0.5s;
 
 			&:hover {
-				background: #ffffff;
-				color: #222222;
+				background: red;
+
+				svg {
+					color: #ffffff;
+				}
 			}
 		}
 
@@ -48,8 +53,8 @@ body {
 			position: absolute;
 			left: 0;
 			bottom: -100px;
-			transition: .3s;
-			
+			transition: 0.3s;
+
 			a {
 				background: #222222;
 				font-weight: 600;
@@ -62,7 +67,7 @@ body {
 				flex-grow: 1;
 
 				&:hover {
-					background: #FF6347;
+					background: #ff6347;
 				}
 			}
 		}
