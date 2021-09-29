@@ -20,6 +20,35 @@ body {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
+.sct_card_7__img__favorite {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.sct_card_7__img__favorite:hover {
+  background: red;
+}
+.sct_card_7__img__favorite:hover svg {
+  color: #ffffff;
+}
+.sct_card_7__img__favorite svg {
+  color: #222222;
+}
 .sct_card_7__img__svg {
   position: absolute;
   top: 5%;
@@ -81,6 +110,9 @@ body {
 }
 .sct_card_7__img__details a:hover {
   background: #ff6347;
+}
+.sct_card_7__desc {
+  margin-top: 16px;
 }
 .sct_card_7__desc a {
   text-decoration: none;
