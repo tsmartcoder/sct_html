@@ -31,6 +31,12 @@ body {
   margin: 0;
   color: #ffffff;
 }
+@media (max-width: 425px) {
+  .sct_card_9__desc h2 {
+    font-size: 40px;
+    line-height: 64px;
+  }
+}
 .sct_card_9__desc p {
   font-size: 16px;
   line-height: 21px;
@@ -51,6 +57,11 @@ body {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
+@media (max-width: 425px) {
+  .sct_card_9__desc a {
+    padding: 10px 40px 10px 60px;
+  }
+}
 .sct_card_9__desc a::before {
   position: absolute;
   content: "";
@@ -61,6 +72,11 @@ body {
   left: 50px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+@media (max-width: 425px) {
+  .sct_card_9__desc a::before {
+    left: 30px;
+  }
 }
 .sct_card_9__desc a:hover {
   background: #000;

@@ -5,7 +5,7 @@ body {
 .sct_card_9 {
 	background: url(https://i.postimg.cc/0QSBNBFn/pexels-lilartsy-1793059-removebg-preview.png) no-repeat;
 	background-size: contain;
-    background-position: left;
+	background-position: left;
 
 	&__desc {
 		position: relative;
@@ -31,6 +31,11 @@ body {
 			text-transform: uppercase;
 			margin: 0;
 			color: #ffffff;
+
+			@media (max-width: 425px) {
+				font-size: 40px;
+				line-height: 64px;
+			}
 		}
 
 		p {
@@ -51,7 +56,11 @@ body {
 			color: #222222;
 			background: #ffffff;
 			padding: 16px 60px 16px 80px;
-			transition: .3s;
+			transition: 0.3s;
+
+			@media (max-width: 425px) {
+				padding: 10px 40px 10px 60px;
+			}
 
 			&::before {
 				position: absolute;
@@ -62,6 +71,10 @@ body {
 				top: 50%;
 				left: 50px;
 				transform: translateY(-50%);
+
+				@media (max-width: 425px) {
+					left: 30px;
+				}
 			}
 
 			&:hover {
