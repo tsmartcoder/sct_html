@@ -7,6 +7,7 @@ body {
 }
 .sct_card_8__img {
   background: #e7e7e7;
+  border-radius: 5px;
 }
 @media (max-width: 425px) {
   .sct_card_8__img img {
