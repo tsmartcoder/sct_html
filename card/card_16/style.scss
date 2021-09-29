@@ -1,0 +1,75 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+.sct_card_16 {
+	&__img {
+		position: relative;
+		background: #f5f4f9;
+		text-align: center;
+		overflow: hidden;
+
+		&:hover {
+			img {
+				transform: scale(1.1);
+			}
+
+			.sct_card_6__img__details {
+				bottom: 0;
+			}
+		}
+
+		img {
+			max-width: 100%;
+			transition: 0.3s;
+		}
+
+		&__details {
+			position: absolute;
+			left: 5%;
+			top: 5%;
+			a {
+				background: #ffffff;
+				font-size: 14px;
+				line-height: 24px;
+				display: block;
+				text-decoration: none;
+				color: #222222;
+				text-decoration: none;
+				transition: 0.5s;
+				text-transform: uppercase;
+				padding: 5px 12px;
+				&:hover {
+					background: #222222;
+					color: #ffffff;
+				}
+			}
+		}
+	}
+
+	&__desc {
+		margin-top: 20px;
+
+		&__category {
+			font-size: 14px;
+			line-height: 24px;
+			color: #767676;
+			text-decoration: none;
+			display: block;
+		}
+		&__price {
+			span {
+				display: inline-block;
+				font-size: 16px;
+				line-height: 21px;
+				color: #767676;
+				text-decoration: line-through;
+				margin-right: 12px;
+
+				&:last-child {
+					text-decoration: none;
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}

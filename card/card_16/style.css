@@ -1,0 +1,66 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_16__img {
+  position: relative;
+  background: #f5f4f9;
+  text-align: center;
+  overflow: hidden;
+}
+.sct_card_16__img:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.sct_card_16__img:hover .sct_card_6__img__details {
+  bottom: 0;
+}
+.sct_card_16__img img {
+  max-width: 100%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_16__img__details {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+}
+.sct_card_16__img__details a {
+  background: #ffffff;
+  font-size: 14px;
+  line-height: 24px;
+  display: block;
+  text-decoration: none;
+  color: #222222;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-transform: uppercase;
+  padding: 5px 12px;
+}
+.sct_card_16__img__details a:hover {
+  background: #222222;
+  color: #ffffff;
+}
+.sct_card_16__desc {
+  margin-top: 20px;
+}
+.sct_card_16__desc__category {
+  font-size: 14px;
+  line-height: 24px;
+  color: #767676;
+  text-decoration: none;
+  display: block;
+}
+.sct_card_16__desc__price span {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 21px;
+  color: #767676;
+  text-decoration: line-through;
+  margin-right: 12px;
+}
+.sct_card_16__desc__price span:last-child {
+  text-decoration: none;
+  margin-right: 0;
+}
