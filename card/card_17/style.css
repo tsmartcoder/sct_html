@@ -1,0 +1,25 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_17 {
+  background: #ffffff;
+}
+.sct_card_17__img {
+  padding: 10% 5%;
+  text-align: center;
+}
+.sct_card_17__img img {
+  max-width: 100%;
+}
+.sct_card_17__desc {
+  padding: 0 0 14px 20px;
+}
+.sct_card_17__desc a,
+.sct_card_17__desc span {
+  font-size: 16px;
+  line-height: 21px;
+  color: #222222;
+  text-decoration: none;
+  display: block;
+}
