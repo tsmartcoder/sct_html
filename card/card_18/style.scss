@@ -1,0 +1,128 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_18 {
+	&__img {
+		background: #f9f9f9;
+		position: relative;
+		text-align: center;
+		overflow: hidden;
+		background: #F9F9F9;
+
+		&:hover {
+			img {
+				transform: scale(0.9);
+			}
+
+			.sct_card_18__img__imgCard {
+				bottom: 4%;
+			}
+		}
+
+		img {
+			max-width: 100%;
+			transition: 0.5s;
+		}
+
+		&__imgIcon {
+			position: absolute;
+			top: 4%;
+			right: 4%;
+			display: flex;
+			flex-direction: column;
+
+			&__icon {
+				width: 40px;
+				height: 40px;
+				border-radius: 50%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background: #ffffff;
+
+				&:last-child {
+					margin-top: 10px;
+				}
+				&:hover {
+					background: red;
+					cursor: pointer;
+
+					svg {
+						color: #ffffff;
+					}
+				}
+			}
+			svg {
+				color: #222222;
+			}
+		}
+
+		&__imgCard {
+			position: absolute;
+			bottom: -30%;
+			width: 100%;
+			background: transparent;
+			transition: 0.5s;
+
+			a {
+				text-decoration: none;
+				font-weight: 600;
+				font-size: 14px;
+				line-height: 24px;
+				color: #000;
+				background: #ffffff;
+				padding: 10px 70px;
+				display: block;
+				width: 80%;
+				margin: 0 auto;
+            transition: .7s;
+				&:hover {
+					color: #ffffff;
+					background: red;
+               border-radius: 40px;
+				}
+			}
+		}
+	}
+
+	&__desc {
+		margin-top: 14px;
+
+		&__item {
+			display: block;
+			text-decoration: none;
+			font-size: 14px;
+			line-height: 24px;
+			color: #767676;
+
+			&:hover {
+				color: red;
+			}
+		}
+
+		&__title {
+			font-size: 16px;
+			line-height: 21px;
+			color: #222222;
+			text-decoration: none;
+			display: block;
+
+			&:hover {
+				color: red;
+			}
+		}
+
+		span {
+			display: inline-block;
+			font-size: 16px;
+			line-height: 21px;
+			text-decoration-line: line-through;
+
+			&:last-child {
+				margin-left: 10px;
+				text-decoration-line: none;
+			}
+		}
+	}
+}
