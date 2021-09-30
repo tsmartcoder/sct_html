@@ -4,7 +4,6 @@ body {
 
 .sct_card_14 {
   text-align: center;
-  background: grey;
 }
 .sct_card_14 .carousel-indicators button {
   width: 10px;
@@ -20,12 +19,26 @@ body {
   font-size: 35px;
   line-height: 47px;
   color: #222222;
-  padding: 90px 0 40px 0;
+  padding: 40px 0;
+}
+@media (max-width: 425px) {
+  .sct_card_14__testimonial h2 {
+    font-size: 22px;
+    line-height: 30px;
+    padding: 20px 0 10px 0;
+  }
 }
 .sct_card_14__testimonial p {
   font-size: 18px;
   line-height: 32px;
   color: #222222;
+}
+@media (max-width: 425px) {
+  .sct_card_14__testimonial p {
+    font-size: 16px;
+    line-height: 18px;
+    padding: 0 10%;
+  }
 }
 .sct_card_14__testimonial span {
   font-size: 14px;
@@ -34,9 +47,35 @@ body {
   padding: 24px 0 16px 0;
   display: block;
 }
+@media (max-width: 425px) {
+  .sct_card_14__testimonial span {
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 10px;
+  }
+}
 .sct_card_14__testimonial img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
   margin-bottom: 50px;
+}
+@media (max-width: 425px) {
+  .sct_card_14__testimonial img {
+    width: 60px;
+    height: 60px;
+  }
+}
+.sct_card_14 .sct_svgIcon {
+  color: #767676;
+}
+@media (max-width: 425px) {
+  .sct_card_14 .carousel-control-prev {
+    left: -5%;
+  }
+}
+@media (max-width: 425px) {
+  .sct_card_14 .carousel-control-next {
+    right: -5%;
+  }
 }
