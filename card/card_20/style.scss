@@ -1,0 +1,87 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+.sct_card_20 {
+	display: flex;
+	position: relative;
+	padding-left: 24px;
+
+	&__collectionName {
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 24px;
+		color: #222222;
+		text-transform: uppercase;
+		position: absolute;
+		left: -50px;
+		top: 50px;
+		transform: rotate(-90deg);
+
+		@media (max-width: 425px) {
+			font-size: 12px;
+			line-height: 16px;
+		}
+	}
+
+	&__details {
+		max-width: 100%;
+		&__img {
+         overflow: hidden;
+			img {
+				width: 100%;
+				transition: 0.5s;
+			}
+
+			&:hover {
+				img {
+					transform: scale(1.1);
+				}
+			}
+		}
+
+		&__desc {
+			margin-top: 25px;
+			z-index: 3;
+
+			@media (max-width: 425px) {
+				margin-top: 15px;
+			}
+
+			h2 {
+				font-weight: 600;
+				font-size: 26px;
+				line-height: 35px;
+				color: #222222;
+
+				@media (max-width: 425px) {
+					font-size: 18px;
+					line-height: 22px;
+				}
+			}
+
+			p {
+				font-weight: 600;
+				font-size: 14px;
+				line-height: 24px;
+				color: #222222;
+				position: relative;
+            display: table;
+
+				@media (max-width: 425px) {
+					font-size: 12px;
+					line-height: 16px;
+				}
+
+				&::after {
+					position: absolute;
+					content: "";
+					width: 70%;
+					height: 2px;
+					bottom: -2px;
+					left: 0;
+					background: #222222;
+				}
+			}
+		}
+	}
+}

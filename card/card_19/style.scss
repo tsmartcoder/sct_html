@@ -1,0 +1,42 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_19 {
+	position: relative;
+
+	&::after {
+		content: "";
+		position: absolute;
+		background: rgb(48 28 27 / 42%);
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	img {
+		width: 100%;
+	}
+
+	&__desc {
+		position: absolute;
+		left: 5%;
+		bottom: 5%;
+		z-index: 2;
+
+		p {
+			margin: 0;
+			font-size: 14px;
+			line-height: 24px;
+			color: #ffffff;
+			margin-bottom: 5px;
+		}
+
+		h3 {
+			margin: 0;
+			font-size: 18px;
+			line-height: 24px;
+			color: #ffffff;
+		}
+	}
+}
