@@ -1,0 +1,92 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_22 {
+   
+	&__img {
+		width: 100%;
+		height: 100%;
+		background: #e3e3e6;
+		position: relative;
+		overflow: hidden;
+
+		&:hover {
+			.sct_card_22__img__category {
+				left: 5%;
+			}
+		}
+
+		img {
+			max-width: 60%;
+			float: right;
+		}
+
+		&__category {
+			position: absolute;
+			left: -50%;
+			top: 5%;
+			z-index: 3;
+			transition: 0.5s;
+			ul {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+
+				li {
+					a {
+						text-decoration: none;
+						font-size: 14px;
+						line-height: 30px;
+						color: #222222;
+
+						&:hover {
+							color: #b22222;
+						}
+					}
+				}
+			}
+		}
+
+		&__title {
+			margin-top: 20px;
+			position: absolute;
+			bottom: 5%;
+			left: 5%;
+			z-index: 3;
+			h2 {
+				margin: 0;
+				font-weight: 600;
+				font-size: 30px;
+				line-height: 41px;
+				color: #222222;
+				text-transform: uppercase;
+			}
+
+			a {
+				text-decoration: none;
+				font-weight: 600;
+				font-size: 14px;
+				line-height: 24px;
+				color: #222222;
+				text-transform: uppercase;
+				display: table;
+				position: relative;
+
+				&::after {
+					position: absolute;
+					content: "";
+					left: 0;
+					bottom: -3%;
+					width: 80%;
+					height: 2px;
+					background: #222222;
+				}
+
+				&:hover {
+					color: #b22222;
+				}
+			}
+		}
+	}
+}
