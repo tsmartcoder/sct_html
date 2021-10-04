@@ -1,0 +1,62 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_widget_5 {
+	padding: 30px 0;
+
+	&__rules {
+		text-align: center;
+      padding-bottom: 28px;
+
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: flex;
+         justify-content: center;
+
+			li {
+				padding-right: 30px;
+
+				&:last-child {
+					padding-right: 0;
+				}
+
+				a {
+					text-decoration: none;
+					font-size: 14px;
+					line-height: 40px;
+					color: #222222;
+				}
+			}
+		}
+	}
+
+	&__icon {
+		text-align: center;
+
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: flex;
+         justify-content: center;
+
+			li {
+				padding-right: 36px;
+
+				&:last-child {
+					padding-right: 0;
+				}
+
+				a {
+					color: #222222;
+					&:hover {
+						color: #767676;
+					}
+				}
+			}
+		}
+	}
+}

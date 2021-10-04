@@ -1,0 +1,91 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_callToAction_3 {
+  text-align: center;
+  padding: 40px 0;
+}
+.sct_callToAction_3 h2 {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 35px;
+  color: #222222;
+  margin: 0;
+}
+@media (max-width: 425px) {
+  .sct_callToAction_3 h2 {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+.sct_callToAction_3 p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #767676;
+  margin: 0;
+  padding: 16px 0;
+}
+@media (max-width: 767px) {
+  .sct_callToAction_3 p {
+    padding: 8px 0;
+  }
+}
+@media (max-width: 425px) {
+  .sct_callToAction_3 p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+.sct_callToAction_3__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.sct_callToAction_3__form input {
+  font-size: 14px;
+  line-height: 24px;
+  color: #767676;
+  padding: 20px 0 20px 20px;
+  border: 1px solid #e4e4e4;
+  outline: none;
+  width: 50%;
+  min-width: 140px;
+}
+@media (max-width: 768px) {
+  .sct_callToAction_3__form input {
+    padding: 10px 0 10px 10px;
+  }
+}
+.sct_callToAction_3__form button {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #222222;
+  text-transform: uppercase;
+  border: none;
+  padding: 20px 50px;
+  margin-left: 20px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+@media (max-width: 768px) {
+  .sct_callToAction_3__form button {
+    padding: 10px 30px;
+  }
+}
+.sct_callToAction_3__form button:hover {
+  background: #deb887;
+  color: #5c5c5c;
+}
+@media (max-width: 767px) {
+  .sct_callToAction_3__form button {
+    padding: 8px 30px;
+    margin-left: 0;
+  }
+}
