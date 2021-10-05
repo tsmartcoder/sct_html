@@ -1,0 +1,151 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_28 {
+	padding: 10px;
+	border: 1px solid transparent;
+
+	&:hover {
+		border-color: #0046be;
+
+		.sct_card_28__desc__card__bottom h3 {
+			margin-top: -30px;
+		}
+	}
+
+	&__img {
+		padding: 12px;
+
+		@media (max-width: 425px) {
+			padding: 0;
+		}
+
+		img {
+			width: 100%;
+		}
+	}
+
+	&__desc {
+		&__category {
+			font-size: 14px;
+			line-height: 24px;
+			color: #767676;
+			display: block;
+			text-decoration: none;
+			margin-top: 8px;
+
+			&:hover {
+				color: #8b4513;
+			}
+		}
+
+		&__title {
+			font-size: 15px;
+			line-height: 20px;
+			color: #222222;
+			text-decoration: none;
+
+			&:hover {
+				color: #8b4513;
+			}
+		}
+
+		&__iconList {
+			display: flex;
+			ul {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				display: flex;
+
+				li {
+					padding-right: 10px;
+
+					&:last-child {
+						padding-right: 0;
+					}
+
+					a {
+						svg {
+							color: #eeba36;
+
+							&:hover {
+								color: red;
+							}
+						}
+					}
+				}
+			}
+			&__starCount {
+				font-size: 13px;
+				line-height: 24px;
+				color: #767676;
+				margin-left: 10px;
+			}
+		}
+
+		&__card {
+			&__bottom {
+				height: 30px;
+				overflow: hidden;
+
+				h3 {
+					font-size: 18px;
+					line-height: 24px;
+					color: #0046be;
+					margin: 5px 0;
+					transition: 0.5s;
+				}
+			}
+			&__features {
+				display: flex;
+				justify-content: space-between;
+
+				&__name {
+					margin-bottom: -100%;
+					transition: 0.5s;
+
+					a {
+						text-decoration: none;
+						font-weight: 600;
+						font-size: 14px;
+						line-height: 24px;
+						color: #0046be;
+						display: inline-block;
+						transition: 0.5s;
+						text-transform: uppercase;
+						margin-right: 10px;
+						transition: 0.5s;
+						position: relative;
+
+						&:last-child {
+							margin-right: 0;
+						}
+
+						&:hover {
+							color: #8b4513 !important;
+							cursor: pointer;
+
+							&:before {
+								position: absolute;
+								content: "";
+								width: 70px;
+								height: 2px;
+								background: #0046be;
+								left: 0;
+								bottom: -3%;
+							}
+						}
+					}
+				}
+
+				svg {
+					&:hover {
+						color: red;
+					}
+				}
+			}
+		}
+	}
+}
