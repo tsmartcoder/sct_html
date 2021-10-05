@@ -1,0 +1,132 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_26 {
+	padding: 10px;
+
+	&:hover {
+		border: 1px solid #0046BE;
+	}
+	
+	&__img {
+		padding: 12px;
+
+		@media (max-width: 425px) {
+			padding: 0;
+		}
+
+		img {
+			width: 100%;
+		}
+	}
+
+	&__desc {
+		&__category {
+			font-size: 14px;
+			line-height: 24px;
+			color: #767676;
+			display: block;
+			text-decoration: none;
+			margin-top: 8px;
+
+			&:hover {
+				color: #8b4513;
+			}
+		}
+
+		&__title {
+			font-size: 15px;
+			line-height: 20px;
+			color: #222222;
+			text-decoration: none;
+
+			&:hover {
+				color: #8b4513;
+			}
+		}
+
+		&__iconList {
+			display: flex;
+			ul {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				display: flex;
+
+				li {
+					padding-right: 10px;
+
+					&:last-child {
+						padding-right: 0;
+					}
+
+					a {
+						svg {
+							color: #eeba36;
+
+							&:hover {
+								color: red;
+							}
+						}
+					}
+				}
+			}
+			&__starCount {
+				font-size: 13px;
+				line-height: 24px;
+				color: #767676;
+				margin-left: 10px;
+			}
+		}
+
+		h3 {
+			font-size: 18px;
+			line-height: 24px;
+			color: #0046be;
+			margin: 5px 0;
+		}
+
+		&__clsDate {
+			font-size: 13px;
+			line-height: 24px;
+			color: #767676;
+		}
+
+		&__prograssbar {
+			width: 100%;
+			height: 4px;
+			background: #eeeeee;
+			border-radius: 10px;
+			position: relative;
+			margin: 7px 0;
+
+			&::after {
+				position: absolute;
+				content: "";
+				width: 40%;
+				height: 4px;
+				left: 0;
+				background: #0046be;
+				border-radius: 10px;
+			}
+		}
+
+		&__currentValues {
+			display: flex;
+			justify-content: space-between;
+
+			p {
+				font-size: 13px;
+				line-height: 24px;
+				color: #767676;
+
+				span {
+					color: #222222;
+					margin-left: 8px;
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
