@@ -1,0 +1,38 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_widget_6 p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #222222;
+}
+.sct_widget_6__colorList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: -15px;
+}
+.sct_widget_6__colorList li {
+  padding: 5px;
+  margin: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 50%;
+  border: 1px solid transparent;
+}
+.sct_widget_6__colorList li:hover {
+  border-color: #222222;
+}
+.sct_widget_6__colorList li span {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: block;
+}
