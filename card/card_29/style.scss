@@ -1,0 +1,142 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_29 {
+	padding: 5px;
+	border: 1px solid #e4e4e4;
+	border-radius: 7px;
+	transition: 0.5s;
+
+	&:hover {
+		box-shadow: 2px 4px 10px #888888;
+
+		.sct_card_29__img__dropIcon {
+			bottom: 0px;
+		}
+	}
+	&__img {
+		overflow: hidden;
+		position: relative;
+		img {
+			width: 100%;
+		}
+
+		&__dropIcon {
+			padding: 10px 0;
+			background: transparent;
+			position: absolute;
+			left: 0;
+			bottom: -100px;
+			width: 100%;
+			transition: 0.5s;
+
+			ul {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				display: flex;
+				justify-content: center;
+
+				li {
+					padding: 0 10px;
+
+					@media (max-width: 425px) {
+						padding: 0 6px;
+					}
+
+					a {
+						background: #f3e8d6;
+						width: 40px;
+						height: 40px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						border-radius: 50%;
+
+						&:hover {
+							background: red;
+
+							.card_29__icon {
+								color: #ffffff;
+							}
+						}
+
+						svg {
+							color: #074e37;
+							transition: 0.5;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&__desc {
+		&__category {
+			font-size: 14px;
+			line-height: 24px;
+			color: #767676;
+			display: block;
+			text-decoration: none;
+			margin-top: 8px;
+
+			&:hover {
+				color: #8b4513;
+			}
+		}
+
+		&__title {
+			font-size: 15px;
+			line-height: 20px;
+			color: #222222;
+			text-decoration: none;
+
+			&:hover {
+				color: #8b4513;
+			}
+		}
+
+		&__iconList {
+			display: flex;
+			ul {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				display: flex;
+
+				li {
+					padding-right: 10px;
+
+					&:last-child {
+						padding-right: 0;
+					}
+
+					a {
+						svg {
+							color: #eeba36;
+
+							&:hover {
+								color: red;
+							}
+						}
+					}
+				}
+			}
+			&__starCount {
+				font-size: 13px;
+				line-height: 24px;
+				color: #767676;
+				margin-left: 10px;
+			}
+		}
+
+		h3 {
+			font-size: 18px;
+			line-height: 24px;
+			color: #0046be;
+			margin: 5px 0;
+			transition: 0.5s;
+		}
+	}
+}
