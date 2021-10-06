@@ -15,22 +15,21 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   list-style: none;
-  margin: 0;
-  padding: 0;
   margin-left: -15px;
 }
-.sct_widget_6__colorList li {
+.sct_widget_6__colorList button {
   padding: 5px;
   margin: 10px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 50%;
   border: 1px solid transparent;
+  background: transparent;
 }
-.sct_widget_6__colorList li:hover {
+.sct_widget_6__colorList button:hover {
   border-color: #222222;
 }
-.sct_widget_6__colorList li span {
+.sct_widget_6__colorList button span {
   width: 15px;
   height: 15px;
   border-radius: 50%;

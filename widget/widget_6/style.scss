@@ -10,21 +10,19 @@ body {
 		color: #222222;
 	}
 
-	&__colorList {
+	&__colorList{
 		display: flex;
 		flex-wrap: wrap;
 		list-style: none;
-		margin: 0;
-		padding: 0;
-      margin-left: -15px;
-
-
-		li {
+		margin-left: -15px;
+		
+		button {
 			padding: 5px;
 			margin: 10px;
 			transition: 0.5s;
 			border-radius: 50%;
 			border: 1px solid transparent;
+			background: transparent;
 
 			&:hover {
 				border-color: #222222;
