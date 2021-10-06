@@ -1,0 +1,30 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_widget_9 {
+	p {
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 24px;
+		color: #222222;
+		text-transform: uppercase;
+	}
+
+	&__price {
+		display: flex;
+		justify-content: space-between;
+
+		p {
+			font-size: 14px;
+			line-height: 40px;
+			color: #767676;
+			text-transform: capitalize;
+
+			span {
+				color: #222222;
+				margin-left: 10px;
+			}
+		}
+	}
+}

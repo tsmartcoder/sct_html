@@ -22,10 +22,25 @@ body {
 .sct_widget_8__searchArea input {
   font-size: 16px;
   line-height: 24px;
-  color: #767676;
+  color: #222222;
   border: none;
   outline: none;
   text-transform: capitalize;
+}
+.sct_widget_8__searchArea input::-webkit-input-placeholder {
+  color: #767676;
+}
+.sct_widget_8__searchArea input::-moz-placeholder {
+  color: #767676;
+}
+.sct_widget_8__searchArea input:-ms-input-placeholder {
+  color: #767676;
+}
+.sct_widget_8__searchArea input::-ms-input-placeholder {
+  color: #767676;
+}
+.sct_widget_8__searchArea input::placeholder {
+  color: #767676;
 }
 .sct_widget_8__brandList {
   margin: 10px 0;
