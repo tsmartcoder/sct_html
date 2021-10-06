@@ -1,0 +1,36 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_widget_6 {
+	p {
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 24px;
+		color: #222222;
+		text-transform: uppercase;
+	}
+
+	&__sizeList {
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: -15px;
+
+		button {
+			padding: 7px 20px;
+			margin: 10px;
+			transition: 0.5s;
+			font-size: 14px;
+			line-height: 30px;
+			color: #222222;
+			outline: none;
+			border: 1px solid #ededed;
+			transition: 0.5s;
+
+			&:hover {
+				background: #555555;
+				color: #ededed;
+			}
+		}
+	}
+}
