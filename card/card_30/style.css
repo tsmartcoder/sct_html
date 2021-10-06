@@ -1,0 +1,107 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_30:hover .sct_card_30__desc {
+  left: 0;
+  bottom: 0;
+}
+.sct_card_30__img {
+  position: relative;
+  overflow: hidden;
+}
+.sct_card_30__img img {
+  width: 100%;
+}
+.sct_card_30__desc {
+  background: rgba(234, 234, 234, 0.8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: -100%;
+  bottom: -100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.sct_card_30__desc__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.sct_card_30__desc__icon svg {
+  margin: 10px 10px 0 0;
+  color: #222222;
+}
+.sct_card_30__desc__icon svg:hover {
+  color: red;
+}
+.sct_card_30__desc__details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.sct_card_30__desc__details__category {
+  font-size: 14px;
+  line-height: 24px;
+  color: #767676;
+}
+.sct_card_30__desc__details p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #222222;
+}
+.sct_card_30__desc__details__colorList button {
+  padding: 5px;
+  margin: 8px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  background: transparent;
+}
+.sct_card_30__desc__details__colorList button:hover {
+  border-color: #222222;
+}
+.sct_card_30__desc__details__colorList button span {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: block;
+}
+.sct_card_30__desc__details > button {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #000;
+  padding: 16px 100px;
+  border: none;
+  background: #ffffff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.sct_card_30__desc__details > button:hover {
+  background: red;
+  color: #ffffff;
+}
+@media (max-width: 425px) {
+  .sct_card_30__desc__details > button {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 8px 50px;
+  }
+}
