@@ -1,0 +1,123 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_table_1 {
+  padding-top: 10px;
+}
+.sct_table_1__descArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+}
+.sct_table_1__descArea h3 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #222222;
+  margin: 0;
+  text-transform: uppercase;
+}
+.sct_table_1__descArea__product {
+  -webkit-box-flex: 5;
+      -ms-flex-positive: 5;
+          flex-grow: 5;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sct_table_1__descArea__product__img {
+  width: 120px;
+}
+.sct_table_1__descArea__product__img img {
+  max-width: 100%;
+}
+.sct_table_1__descArea__product__name {
+  margin-left: 20px;
+}
+.sct_table_1__descArea__product__name h4 {
+  font-size: 16px;
+  line-height: 21px;
+  color: #222222;
+  margin: 0;
+}
+.sct_table_1__descArea__price {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+.sct_table_1__descArea__price span {
+  font-size: 16px;
+  line-height: 21px;
+  color: #767676;
+  display: block;
+}
+.sct_table_1__descArea__quantity {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+.sct_table_1__descArea__quantity__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100px;
+  border: 2px solid #e4e4e4;
+  padding: 5px 10px;
+}
+@media (max-width: 767px) {
+  .sct_table_1__descArea__quantity__btn {
+    padding: 14px;
+  }
+}
+@media (max-width: 425px) {
+  .sct_table_1__descArea__quantity__btn {
+    padding: 10px;
+  }
+}
+.sct_table_1__descArea__quantity__btn button {
+  font-size: 16px;
+  line-height: 21px;
+  color: #767676;
+  border: none;
+  background: none;
+}
+.sct_table_1__descArea__quantity__btn p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #767676;
+  padding: 0 15px;
+}
+@media (max-width: 425px) {
+  .sct_table_1__descArea__quantity__btn p {
+    padding: 0 10px;
+  }
+}
+.sct_table_1__descArea__subtotal {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+.sct_table_1__descArea__delete {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
