@@ -1,0 +1,40 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_accordion_1__btnOne {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #222222;
+}
+.sct_accordion_1__button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #767676;
+  text-transform: uppercase;
+}
+.sct_accordion_1 .accordion-item {
+  border: none;
+  border-bottom: 1px solid #e4e4e4;
+  padding: 5px 0;
+}
+.sct_accordion_1 .accordion-item button {
+  padding: 4px 0;
+}
+.sct_accordion_1 .accordion-button:not(.collapsed) {
+  color: #222222;
+}
+.sct_accordion_1 .accordion-button::after {
+  background: none;
+  -webkit-transform: none;
+          transform: none;
+  content: "+";
+  font-size: 30px;
+}
+.sct_accordion_1 .accordion-button:not(.collapsed)::after {
+  background: none;
+  content: "-";
+  font-size: 40px;
+}
