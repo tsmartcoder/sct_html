@@ -1,0 +1,384 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_31 {
+  background: #ffffff;
+  padding-top: 10px;
+}
+.sct_card_31 h2 {
+  font-size: 26px;
+  line-height: 35px;
+  color: #222222;
+  margin: 0;
+  margin-bottom: 10px;
+}
+@media (max-width: 425px) {
+  .sct_card_31 h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+.sct_card_31 h3 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  color: #222222;
+  margin: 0;
+  margin-bottom: 24px;
+}
+@media (max-width: 425px) {
+  .sct_card_31 h3 {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+.sct_card_31 > p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #222222;
+  margin: 0;
+}
+@media (max-width: 425px) {
+  .sct_card_31 > p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+.sct_card_31__sizeList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sct_card_31__sizeList__buttonArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (max-width: 425px) {
+  .sct_card_31__sizeList__buttonArea {
+    margin-top: 10px;
+  }
+}
+.sct_card_31__sizeList__buttonArea p {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  color: #222222;
+  text-transform: uppercase;
+  margin: 0;
+}
+.sct_card_31__sizeList__buttonArea__btn {
+  margin-left: 24px;
+}
+@media (max-width: 425px) {
+  .sct_card_31__sizeList__buttonArea__btn {
+    margin-left: 20px;
+  }
+}
+.sct_card_31__sizeList__buttonArea__btn button {
+  padding: 7px 20px;
+  margin: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 13px;
+  line-height: 17px;
+  color: #222222;
+  outline: none;
+  border: 1px solid #e4e4e4;
+  transition: 0.5s;
+  background: #ffffff;
+  text-transform: uppercase;
+}
+.sct_card_31__sizeList__buttonArea__btn button:hover {
+  border-color: #222222;
+}
+@media (max-width: 425px) {
+  .sct_card_31__sizeList__buttonArea__btn button {
+    padding: 5px 10px;
+    margin: 5px;
+  }
+}
+.sct_card_31__sizeList__sizeGuide {
+  margin: 0;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  color: #222222;
+  display: table;
+  position: relative;
+  -webkit-transition: 1s;
+  transition: 1s;
+  text-transform: uppercase;
+}
+.sct_card_31__sizeList__sizeGuide:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -5%;
+  width: 100%;
+  height: 3px;
+  background: transparent;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.sct_card_31__sizeList__sizeGuide:hover::before {
+  background-color: #222222;
+}
+@media (max-width: 425px) {
+  .sct_card_31__sizeList__sizeGuide {
+    display: none;
+  }
+}
+.sct_card_31__colorList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sct_card_31__colorList p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #222222;
+  margin: 0;
+  margin-right: 36px;
+}
+@media (max-width: 425px) {
+  .sct_card_31__colorList p {
+    font-size: 12px;
+    line-height: 18px;
+    margin-right: 15px;
+  }
+}
+.sct_card_31__colorList__btn button {
+  padding: 5px;
+  margin: 8px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  background: transparent;
+}
+.sct_card_31__colorList__btn button:hover {
+  border-color: #222222;
+}
+.sct_card_31__colorList__btn button:nth-child(2):hover {
+  border-color: #c93a3e;
+}
+.sct_card_31__colorList__btn button:nth-child(3):hover {
+  border-color: #e4e4e4;
+}
+.sct_card_31__colorList__btn button span {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: block;
+}
+.sct_card_31__btnArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 28px 0;
+}
+@media (max-width: 425px) {
+  .sct_card_31__btnArea {
+    margin: 10px 0;
+  }
+}
+.sct_card_31__btnArea__incrementArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid #e4e4e4;
+  padding: 20px;
+}
+@media (max-width: 767px) {
+  .sct_card_31__btnArea__incrementArea {
+    padding: 14px;
+  }
+}
+@media (max-width: 425px) {
+  .sct_card_31__btnArea__incrementArea {
+    padding: 10px;
+  }
+}
+.sct_card_31__btnArea__incrementArea button {
+  font-size: 16px;
+  line-height: 21px;
+  color: #767676;
+  border: none;
+  background: none;
+}
+.sct_card_31__btnArea__incrementArea p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #767676;
+  padding: 0 15px;
+}
+@media (max-width: 425px) {
+  .sct_card_31__btnArea__incrementArea p {
+    padding: 0 10px;
+  }
+}
+.sct_card_31__btnArea > button {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #222222;
+  padding: 22px 80px;
+  text-transform: uppercase;
+  border: none;
+  margin-left: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.sct_card_31__btnArea > button:hover {
+  background: red;
+}
+@media (max-width: 767px) {
+  .sct_card_31__btnArea > button {
+    padding: 15px 60px;
+  }
+}
+@media (max-width: 425px) {
+  .sct_card_31__btnArea > button {
+    padding: 12px 40px;
+  }
+}
+.sct_card_31__shareArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.sct_card_31__shareArea svg {
+  color: #222222;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.sct_card_31__shareArea svg:hover {
+  color: red;
+}
+.sct_card_31__shareArea a {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  color: #222222;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.sct_card_31__shareArea a:hover {
+  color: #b22222;
+}
+.sct_card_31__shareArea__wish {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  display: table;
+  padding: 5px 0;
+  border: none;
+  background: none;
+}
+.sct_card_31__shareArea__wish:before {
+  position: absolute;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  content: "";
+  width: 70%;
+  height: 3px;
+  left: 0;
+  bottom: -3%;
+  background: transparent;
+}
+.sct_card_31__shareArea__wish:hover::before {
+  background-color: #222222;
+}
+.sct_card_31__shareArea__share {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 32px;
+  position: relative;
+  display: table;
+  border: none;
+  background: none;
+  padding: 5px 0;
+}
+.sct_card_31__shareArea__share:before {
+  position: absolute;
+  content: "";
+  width: 70%;
+  height: 3px;
+  left: 0;
+  bottom: -3%;
+  background: transparent;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.sct_card_31__shareArea__share:hover::before {
+  background-color: #222222;
+}
+.sct_card_31__categoryList {
+  margin-top: 24px;
+}
+@media (max-width: 425px) {
+  .sct_card_31__categoryList {
+    margin-top: 10px;
+  }
+}
+.sct_card_31__categoryList__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.sct_card_31__categoryList__item span {
+  font-size: 13px;
+  line-height: 24px;
+  color: #767676;
+  text-transform: uppercase;
+  margin-right: 7px;
+}
+.sct_card_31__categoryList__item p {
+  margin: 0;
+}
+.sct_card_31__categoryList__item a {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 24px;
+  color: #222222;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin-left: 2px;
+}
+.sct_card_31__categoryList__item a:hover {
+  color: #8b0000;
+}
