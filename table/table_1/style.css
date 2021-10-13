@@ -4,14 +4,24 @@ body {
 
 .sct_table_1 {
   padding-top: 10px;
+  overflow: auto;
 }
-.sct_table_1__descArea {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 10px;
+.sct_table_1 table {
+  width: 100%;
 }
-.sct_table_1__descArea h3 {
+.sct_table_1 tr,
+.sct_table_1 td {
+  padding: 20px 0;
+}
+@media (max-width: 425px) {
+  .sct_table_1 td {
+    padding: 20px 5px;
+  }
+}
+.sct_table_1__headerArea {
+  border-bottom: 1px solid #ededed;
+}
+.sct_table_1__headerArea h3 {
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
@@ -19,55 +29,51 @@ body {
   margin: 0;
   text-transform: uppercase;
 }
-.sct_table_1__descArea__product {
-  -webkit-box-flex: 5;
-      -ms-flex-positive: 5;
-          flex-grow: 5;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+.sct_table_1__desc tr {
+  border-bottom: 1px solid #ededed;
+}
+@media (max-width: 425px) {
+  .sct_table_1__desc tr td {
+    padding: 0 5px;
+  }
+}
+.sct_table_1__desc__product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
-.sct_table_1__descArea__product__img {
-  width: 120px;
+.sct_table_1__desc__product__img {
+  width: 100px;
+  height: 100px;
 }
-.sct_table_1__descArea__product__img img {
+.sct_table_1__desc__product__img img {
   max-width: 100%;
+  max-height: 100%;
 }
-.sct_table_1__descArea__product__name {
-  margin-left: 20px;
+.sct_table_1__desc__product__name {
+  margin-left: 10px;
 }
-.sct_table_1__descArea__product__name h4 {
+.sct_table_1__desc__product__name a {
   font-size: 16px;
   line-height: 21px;
   color: #222222;
-  margin: 0;
+  text-decoration: none;
 }
-.sct_table_1__descArea__price {
-  -webkit-box-flex: 2;
-      -ms-flex-positive: 2;
-          flex-grow: 2;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+.sct_table_1__desc__product__name span {
+  display: block;
+  font-size: 14px;
+  line-height: 24px;
+  color: #767676;
 }
-.sct_table_1__descArea__price span {
+.sct_table_1__desc__price {
   font-size: 16px;
   line-height: 21px;
   color: #767676;
-  display: block;
 }
-.sct_table_1__descArea__quantity {
-  -webkit-box-flex: 2;
-      -ms-flex-positive: 2;
-          flex-grow: 2;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-}
-.sct_table_1__descArea__quantity__btn {
+.sct_table_1__desc__quantity {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,23 +85,28 @@ body {
   padding: 5px 10px;
 }
 @media (max-width: 767px) {
-  .sct_table_1__descArea__quantity__btn {
-    padding: 14px;
+  .sct_table_1__desc__quantity {
+    padding: 3px 7px;
+    width: 80px;
   }
 }
 @media (max-width: 425px) {
-  .sct_table_1__descArea__quantity__btn {
-    padding: 10px;
+  .sct_table_1__desc__quantity {
+    padding: 3px 5px;
+    width: 70px;
   }
 }
-.sct_table_1__descArea__quantity__btn button {
+.sct_table_1__desc__quantity button {
   font-size: 16px;
   line-height: 21px;
   color: #767676;
   border: none;
   background: none;
 }
-.sct_table_1__descArea__quantity__btn p {
+.sct_table_1__desc__quantity button:hover {
+  color: #222222;
+}
+.sct_table_1__desc__quantity p {
   margin: 0;
   font-size: 16px;
   line-height: 24px;
@@ -103,21 +114,25 @@ body {
   padding: 0 15px;
 }
 @media (max-width: 425px) {
-  .sct_table_1__descArea__quantity__btn p {
+  .sct_table_1__desc__quantity p {
     padding: 0 10px;
   }
 }
-.sct_table_1__descArea__subtotal {
-  -webkit-box-flex: 2;
-      -ms-flex-positive: 2;
-          flex-grow: 2;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+.sct_table_1__desc__subtotal {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #222222;
 }
-.sct_table_1__descArea__delete {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+.sct_table_1__desc__delete {
+  border: none;
+  background: transparent;
+  color: #767676;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_table_1__desc__delete:hover {
+  color: #222222;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
