@@ -52,6 +52,14 @@ body {
 				margin: 7px 0;
 			}
 
+			&.input_focused {
+				label {
+					top: -12px;
+					left: 10px;
+					transform: none;
+				}
+			}
+
 			label {
 				font-size: 14px;
 				line-height: 24px;
@@ -127,7 +135,7 @@ body {
 			background: #8b0000;
 		}
 
-		@media (max-width:425px) {
+		@media (max-width: 425px) {
 			padding: 10px 45px;
 		}
 	}

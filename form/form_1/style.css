@@ -51,6 +51,12 @@ body {
     margin: 7px 0;
   }
 }
+.sct_form_1 form .custom_input.input_focused label {
+  top: -12px;
+  left: 10px;
+  -webkit-transform: none;
+          transform: none;
+}
 .sct_form_1 form .custom_input label {
   font-size: 14px;
   line-height: 24px;

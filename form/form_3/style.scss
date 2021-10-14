@@ -1,0 +1,140 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_form_3 {
+	margin-top: 10px;
+	margin-bottom: 40px;
+
+	p {
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 22px;
+		color: #222222;
+	}
+
+	&__nameArea {
+		display: flex;
+
+		&__fName,
+		&__lName {
+			width: 100%;
+			position: relative;
+			margin-right: 28px;
+
+			input {
+				width: 100%;
+				border: none;
+				outline: none;
+				height: 100%;
+				color: #222222;
+				border: 2px solid #e4e4e4;
+				padding: 16px;
+
+				&:focus {
+					border-color: #222222;
+
+					+ label {
+						top: 0px;
+						left: 5%;
+						background: #ffffff;
+						padding: 0 5px;
+					}
+				}
+			}
+
+			label {
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				left: 5%;
+				font-size: 14px;
+				line-height: 24px;
+				color: #767676;
+				transition: 0.3s;
+			}
+		}
+	}
+
+	.custom_input {
+		width: 100%;
+		position: relative;
+		margin-right: 28px;
+
+		&.input_focused {
+			select {
+				width: 100%;
+				border: 2px solid #222222;
+				padding: 16px;
+			}
+
+			label {
+				top: -10px;
+				left: 20px;
+				transform: none;
+				background: #ffffff;
+				padding: 0 5px;
+			}
+		}
+
+		input {
+			width: 100%;
+			border: none;
+			outline: none;
+			height: 100%;
+			color: #222222;
+			border: 2px solid #e4e4e4;
+			padding: 16px;
+
+			&:focus {
+				border-color: #222222;
+
+				+ label {
+					top: 0px;
+					left: 5%;
+					background: #ffffff;
+					padding: 0 5px;
+				}
+			}
+		}
+
+		label {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			left: 5%;
+			font-size: 14px;
+			line-height: 24px;
+			color: #767676;
+			transition: 0.3s;
+		}
+	}
+
+	&__custom_checkbox {
+		display: flex;
+		align-items: center;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 24px;
+		color: #222222;
+
+		input {
+			border: 2px solid #e4e4e4;
+			width: 17px;
+			height: 17px;
+			margin-right: 10px;
+		}
+	}
+
+	&__textArea {
+		width: 100%;
+		display: block;
+
+		&::placeholder {
+			font-size: 14px;
+			line-height: 24px;
+			color: #767676;
+			padding: 20px 0 0 20px;
+		}
+	}
+}
