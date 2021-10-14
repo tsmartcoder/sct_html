@@ -1,0 +1,94 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_34 {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+
+	@media (max-width: 767px) {
+		flex-direction: column;
+	}
+
+	&__img {
+		background: #f9f9f9;
+
+		img {
+			max-width: 100%;
+			margin: 0 auto;
+		}
+	}
+
+	&__desc {
+		margin-left: 48px;
+
+		@media (max-width: 767px) {
+			margin: 10px 0 0 0;
+		}
+
+		a {
+			font-size: 14px;
+			line-height: 24px;
+			color: #767676;
+			text-transform: uppercase;
+			text-decoration: none;
+			margin-right: 20px;
+			display: inline-block;
+
+			@media (max-width: 425px) {
+				font-size: 12px;
+				line-height: 18px;
+			}
+		}
+
+		h3 {
+			font-size: 26px;
+			line-height: 35px;
+			color: #222222;
+			margin: 4px 0 28px 0;
+
+         @media (max-width:425px) {
+            margin-bottom: 8px;
+            font-size: 22px;
+            line-height: 28px;
+         }
+		}
+
+		p {
+			font-size: 14px;
+			line-height: 24px;
+			color: #222222;
+			margin-bottom: 8px;
+		}
+
+		button {
+			font-weight: 600;
+			font-size: 14px;
+			line-height: 24px;
+			border: none;
+			background: none;
+			text-transform: uppercase;
+			display: table;
+			position: relative;
+			padding: 0;
+
+			&::after {
+				position: absolute;
+				content: "";
+				width: 70%;
+				height: 2px;
+				background: transparent;
+				left: 0;
+				bottom: -3%;
+				transition: 0.3s;
+			}
+
+			&:hover {
+				&::after {
+					background-color: #222222;
+				}
+			}
+		}
+	}
+}
