@@ -1,0 +1,55 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_widget_10 {
+	margin-top: 10px;
+	&__header {
+		display: flex;
+		justify-content: space-between;
+		h4 {
+			font-weight: 600;
+			font-size: 18px;
+			line-height: 24px;
+			color: #222222;
+			margin: 0;
+			text-transform: uppercase;
+		}
+
+		button {
+			font-weight: 600;
+			font-size: 13px;
+			line-height: 24px;
+			color: #222222;
+			text-transform: uppercase;
+			border: none;
+			background: none;
+			display: table;
+			position: relative;
+
+			&::after {
+				position: absolute;
+				content: "";
+				width: 80%;
+				height: 3px;
+				left: 5%;
+				bottom: -3%;
+				background: transparent;
+				transition: 0.3s;
+			}
+
+			&:hover {
+				&::after {
+					background-color: #222222;
+				}
+			}
+		}
+	}
+
+	address {
+		font-size: 14px;
+		line-height: 24px;
+      color: #222222;
+      margin-top: 16px;
+	}
+}
