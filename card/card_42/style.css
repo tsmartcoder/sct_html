@@ -1,0 +1,51 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_42 {
+  margin: 10px;
+}
+.sct_card_42__date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sct_card_42__date a {
+  font-size: 16px;
+  line-height: 24px;
+  color: #e81d4f;
+  text-decoration: none;
+  margin-left: 4px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_42__date a:hover {
+  color: blue;
+}
+.sct_card_42 .card-title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 34px;
+  color: #e81d4f;
+}
+.sct_card_42 .card-text {
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+}
+.sct_card_42 .btn {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  background: #e81d4f;
+  padding: 5px 25px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_42 .btn:hover {
+  background: #111A39;
+}
