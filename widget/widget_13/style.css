@@ -1,0 +1,34 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_widget_13 {
+  background: #111a39;
+  padding: 10px;
+  margin: 10px;
+}
+.sct_widget_13 h2 {
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 37px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.sct_widget_13 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sct_widget_13 ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 38px;
+}
+.sct_widget_13 ul li a:hover {
+  color: #e81d4f;
+}
