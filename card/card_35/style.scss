@@ -1,0 +1,99 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_35 {
+	margin: 10px;
+	display: flex;
+	background: #ffffff;
+	padding: 40px;
+   border-radius: 5px;
+
+	&__titileArea {
+		width: 100%;
+		text-align: center;
+		border-right: 1px solid #e81d4f;
+
+      @media (max-width:768px) {
+         border-right: none;
+      }
+
+      &__svg {
+         position: relative;
+
+         &__car {
+            position: absolute;
+            color: #ffffff;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+         }
+      }
+
+		h3 {
+			font-size: 22px;
+			line-height: 34px;
+			color: #111a39;
+			margin: 0;
+		}
+
+		p {
+			font-size: 18px;
+			line-height: 30px;
+			color: #555555;
+			margin: 0;
+		}
+	}
+
+	&__formArea {
+		padding: 0 20px;
+      @media (max-width:768px) {
+         margin-top: 20px;
+      }
+
+		input {
+			border: none;
+			width: 100%;
+			border-bottom: 1px solid #ededed;
+			padding: 4px 4px;
+			outline: none;
+			font-size: 16px;
+			line-height: 24px;
+			color: #222222;
+
+			&::placeholder {
+				font-size: 16px;
+				line-height: 24px;
+				color: #555555;
+			}
+		}
+
+		select {
+			border: none;
+			width: 100%;
+			border-bottom: 1px solid #ededed;
+			padding: 4px 4px;
+			outline: none;
+			font-size: 16px;
+			line-height: 24px;
+			color: #555555;
+		}
+
+      button {
+         border: none;
+         padding: 4px 68px;
+         color: #ffffff;
+         background: #E81D4F;
+         transition: 0.3s;
+
+         &:hover {
+            background: gray;
+         }
+
+         @media (max-width:768px) {
+            width: 100%;
+         }
+      }
+	}
+}

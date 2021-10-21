@@ -1,0 +1,38 @@
+body {
+	font-family: "Lato", sans-serif;
+	background: #000;
+}
+
+.sct_card_36 {
+	margin: 10px;
+	text-align: center;
+	background: #ffffff;
+	border-radius: 3px;
+	padding: 28px;
+
+	&__svg {
+		position: relative;
+
+		&__road {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	}
+
+	h3 {
+		font-size: 22px;
+		line-height: 34px;
+		color: #e81d4f;
+		margin: 16px 0;
+		font-weight: bold;
+	}
+
+	p {
+		font-size: 18px;
+		line-height: 30px;
+		color: #555555;
+		margin: 0;
+	}
+}

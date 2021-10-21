@@ -1,0 +1,115 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_35 {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 5px;
+}
+.sct_card_35__titileArea {
+  width: 100%;
+  text-align: center;
+  border-right: 1px solid #e81d4f;
+}
+@media (max-width: 768px) {
+  .sct_card_35__titileArea {
+    border-right: none;
+  }
+}
+.sct_card_35__titileArea__svg {
+  position: relative;
+}
+.sct_card_35__titileArea__svg__car {
+  position: absolute;
+  color: #ffffff;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.sct_card_35__titileArea h3 {
+  font-size: 22px;
+  line-height: 34px;
+  color: #111a39;
+  margin: 0;
+}
+.sct_card_35__titileArea p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+  margin: 0;
+}
+.sct_card_35__formArea {
+  padding: 0 20px;
+}
+@media (max-width: 768px) {
+  .sct_card_35__formArea {
+    margin-top: 20px;
+  }
+}
+.sct_card_35__formArea input {
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid #ededed;
+  padding: 4px 4px;
+  outline: none;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+}
+.sct_card_35__formArea input::-webkit-input-placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #555555;
+}
+.sct_card_35__formArea input::-moz-placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #555555;
+}
+.sct_card_35__formArea input:-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #555555;
+}
+.sct_card_35__formArea input::-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #555555;
+}
+.sct_card_35__formArea input::placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #555555;
+}
+.sct_card_35__formArea select {
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid #ededed;
+  padding: 4px 4px;
+  outline: none;
+  font-size: 16px;
+  line-height: 24px;
+  color: #555555;
+}
+.sct_card_35__formArea button {
+  border: none;
+  padding: 4px 68px;
+  color: #ffffff;
+  background: #E81D4F;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_35__formArea button:hover {
+  background: gray;
+}
+@media (max-width: 768px) {
+  .sct_card_35__formArea button {
+    width: 100%;
+  }
+}
