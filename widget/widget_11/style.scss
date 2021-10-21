@@ -1,0 +1,52 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_widget_11 {
+	background: #111a39;
+	padding: 10px;
+	text-align: center;
+   margin-top: 10px;
+
+	p {
+		font-size: 18px;
+		line-height: 30px;
+		color: #ffffff;
+		margin: 28px 0;
+		text-align: justify;
+	}
+
+	&__customInput {
+		display: table;
+
+		input {
+			background: #ffffff;
+			border: none;
+			padding:8px 0 8px 8px;
+         border-radius: 5px 0px 0px 5px;
+
+			&::placeholder {
+				font-size: 16px;
+				line-height: 24px;
+
+				color: #ededed;
+			}
+
+			&:focus {
+				outline: none;
+			}
+		}
+
+      button {
+         padding:8px;
+         background: #E81D4F;
+         border: none;
+         transition: 0.3s;
+         border-radius: 0px 5px 5px 0px;
+
+         &:hover {
+            background: #D26D85;
+         }
+      }
+	}
+}
