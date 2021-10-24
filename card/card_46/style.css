@@ -1,0 +1,118 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_46 {
+  margin: 10px;
+  text-align: center;
+  background: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+.sct_card_46:hover .sct_card_46__desc {
+  bottom: -35%;
+  left: -10%;
+}
+.sct_card_46:hover .sct_card_46__img img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.sct_card_46__img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.sct_card_46__img img {
+  max-width: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.sct_card_46__desc {
+  width: 100%;
+  height: 100%;
+  background: #e81d4f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 30px 0 10px 0;
+  bottom: -100%;
+  left: -100%;
+  border-radius: 50%;
+}
+.sct_card_46__desc h2 {
+  font-size: 22px;
+  line-height: 34px;
+  color: #ffffff;
+  margin: 0;
+  margin-top: 24px;
+  font-weight: 600;
+}
+@media (max-width: 425px) {
+  .sct_card_46__desc h2 {
+    margin-top: 10px;
+  }
+}
+.sct_card_46__desc p {
+  font-size: 16px;
+  line-height: 34px;
+  color: #ffffff;
+  margin: 0;
+}
+.sct_card_46__desc__iconList ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 8px;
+}
+.sct_card_46__desc__iconList ul li {
+  padding-right: 10px;
+}
+.sct_card_46__desc__iconList ul li:last-child {
+  padding-right: none;
+}
+.sct_card_46__desc__iconList ul li a {
+  padding: 10px;
+  background: #f48ea7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_46__desc__iconList ul li a:hover {
+  background: #ffffff;
+}
+.sct_card_46__desc__iconList ul li a:hover svg {
+  color: #e81d4f;
+}
+.sct_card_46__desc__iconList ul li a svg {
+  color: #ffffff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
