@@ -1,0 +1,36 @@
+body {
+	font-family: "Lato", sans-serif;
+   background: #ededed;
+}
+
+.sct_form_7 {
+	margin: 10px;
+	display: table;
+
+	input {
+		padding: 16px;
+		border: none;
+      color: #222222;
+
+		&::placeholder {
+			color: #555555;
+			font-size: 18px;
+			line-height: 30px;
+		}
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+   button {
+      border: none;
+      padding: 16px 24px;
+      background: #E81D4F;
+      transition: 0.3s;
+
+      &:hover {
+         background: #D2691E;
+      }
+   }
+}

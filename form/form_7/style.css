@@ -1,0 +1,52 @@
+body {
+  font-family: "Lato", sans-serif;
+  background: #ededed;
+}
+
+.sct_form_7 {
+  margin: 10px;
+  display: table;
+}
+.sct_form_7 input {
+  padding: 16px;
+  border: none;
+  color: #222222;
+}
+.sct_form_7 input::-webkit-input-placeholder {
+  color: #555555;
+  font-size: 18px;
+  line-height: 30px;
+}
+.sct_form_7 input::-moz-placeholder {
+  color: #555555;
+  font-size: 18px;
+  line-height: 30px;
+}
+.sct_form_7 input:-ms-input-placeholder {
+  color: #555555;
+  font-size: 18px;
+  line-height: 30px;
+}
+.sct_form_7 input::-ms-input-placeholder {
+  color: #555555;
+  font-size: 18px;
+  line-height: 30px;
+}
+.sct_form_7 input::placeholder {
+  color: #555555;
+  font-size: 18px;
+  line-height: 30px;
+}
+.sct_form_7 input:focus {
+  outline: none;
+}
+.sct_form_7 button {
+  border: none;
+  padding: 16px 24px;
+  background: #E81D4F;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_form_7 button:hover {
+  background: #D2691E;
+}
