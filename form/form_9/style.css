@@ -1,0 +1,59 @@
+body {
+  font-family: "Lato", sans-serif;
+  background: #f3f3f3;
+}
+
+.sct_form_9 {
+  margin: 10px;
+}
+.sct_form_9 input,
+.sct_form_9 textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  background: #ffffff;
+  padding: 8px 20px;
+  color: #222222;
+}
+.sct_form_9 input::-webkit-input-placeholder, .sct_form_9 textarea::-webkit-input-placeholder {
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+}
+.sct_form_9 input::-moz-placeholder, .sct_form_9 textarea::-moz-placeholder {
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+}
+.sct_form_9 input:-ms-input-placeholder, .sct_form_9 textarea:-ms-input-placeholder {
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+}
+.sct_form_9 input::-ms-input-placeholder, .sct_form_9 textarea::-ms-input-placeholder {
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+}
+.sct_form_9 input::placeholder,
+.sct_form_9 textarea::placeholder {
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+}
+.sct_form_9 button {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  background: #e81d4f;
+  padding: 8px 36px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_form_9 button:hover {
+  background: #B22222;
+}

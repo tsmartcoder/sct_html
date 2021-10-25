@@ -1,0 +1,41 @@
+body {
+	font-family: "Lato", sans-serif;
+	background: #f3f3f3;
+}
+
+.sct_form_9 {
+	margin: 10px;
+
+	input,
+	textarea {
+		width: 100%;
+		outline: none;
+		border: none;
+		background: #ffffff;
+		padding: 8px 20px;
+      color: #222222;
+
+		&::placeholder {
+			font-size: 18px;
+			line-height: 30px;
+			color: #555555;
+		}
+	}
+
+	button {
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 30px;
+		color: #ffffff;
+		background: #e81d4f;
+      padding: 8px 36px;
+      border-radius: 30px;
+      border:none;
+      outline: none;
+      transition: 0.3s;
+
+      &:hover {
+         background: #B22222;
+      }
+	}
+}
