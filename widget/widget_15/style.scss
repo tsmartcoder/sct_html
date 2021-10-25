@@ -3,16 +3,26 @@ body {
 }
 
 .sct_widget_15 {
-	background: #DEB887;
-	padding: 10px;
+	background: #deb887;
+	padding: 20px;
 	margin: 10px;
-	
+	background: #ffffff;
+	box-shadow: 1px 0px 10px 3px #ccc;
+
+	p {
+		font-weight: bold;
+		font-size: 22px;
+		line-height: 34px;
+		color: #111a39;
+		margin: 0;
+		margin-bottom: 20px;
+	}
+
 	ul {
 		margin: 0;
 		padding: 0;
 		list-style: none;
 		display: flex;
-		justify-content: center;
 
 		li {
 			margin-right: 12px;
@@ -28,14 +38,14 @@ body {
 		height: 30px;
 		border-radius: 50%;
 		position: relative;
-		background: #4e556c;
+		background: #989EB3;
 		position: relative;
 		transition: 0.3s;
 
 		&:hover {
-			background: #ffff;
+			background: #E81D4F;
 			svg {
-				color: #e81d4f;
+				color: #ffffff;
 			}
 		}
 
