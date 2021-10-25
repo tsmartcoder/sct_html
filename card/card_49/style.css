@@ -1,0 +1,123 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_49 {
+  margin: 10px;
+}
+.sct_card_49__img {
+  width: 100%;
+  height: 100%;
+}
+.sct_card_49__img img {
+  max-width: 100%;
+}
+.sct_card_49__tittleArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 16px 0;
+}
+.sct_card_49__tittleArea__pDate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.sct_card_49__tittleArea__pDate a {
+  font-size: 18px;
+  line-height: 30px;
+  color: #e81d4f;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_49__tittleArea__pDate a:hover {
+  color: #e9967a;
+}
+.sct_card_49__tittleArea__pDate span {
+  font-size: 18px;
+  line-height: 30px;
+  color: #111a39;
+  margin: 0 16px;
+}
+.sct_card_49__tittleArea__pDate span:last-child {
+  margin: 0;
+}
+.sct_card_49__tittleArea__pDate span svg {
+  color: #e81d4f;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_49__tittleArea__pDate span svg:hover {
+  color: #e9967a;
+}
+.sct_card_49__tittleArea__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sct_card_49__tittleArea__icon p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #e81d4f;
+  margin: 0;
+  margin-left: 20px;
+}
+@media (max-width: 425px) {
+  .sct_card_49__tittleArea__icon p {
+    display: none;
+  }
+}
+.sct_card_49__feedback {
+  margin: 0 20px;
+}
+.sct_card_49__feedback svg {
+  color: #e81d4f;
+}
+.sct_card_49 h2 {
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 50px;
+  color: #111a39;
+  margin: 0;
+}
+.sct_card_49 > p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+  margin-top: 16px;
+}
+@media (max-width: 425px) {
+  .sct_card_49 > p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 8px;
+  }
+}
+.sct_card_49 button {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  background: #111a39;
+  padding: 4px 24px;
+  border-radius: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_49 button:hover {
+  background: #e81d4f;
+}
