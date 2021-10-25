@@ -1,0 +1,51 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_widget_15 {
+	background: #DEB887;
+	padding: 10px;
+	margin: 10px;
+	
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: flex;
+		justify-content: center;
+
+		li {
+			margin-right: 12px;
+
+			&:last-child {
+				margin-right: none;
+			}
+		}
+	}
+
+	&__svg {
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		position: relative;
+		background: #4e556c;
+		position: relative;
+		transition: 0.3s;
+
+		&:hover {
+			background: #ffff;
+			svg {
+				color: #e81d4f;
+			}
+		}
+
+		svg {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: #ffffff;
+			transition: 0.3s;
+		}
+	}
+}
