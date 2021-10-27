@@ -1,0 +1,114 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_header_2__section {
+  background: #ffffff;
+}
+
+.sct_header_2 .navbar-collapse {
+  -webkit-box-flex: initial;
+      -ms-flex-positive: initial;
+          flex-grow: initial;
+}
+.sct_header_2 .navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 3px;
+  color: #0a2c3d;
+}
+.sct_header_2 .navbar-brand svg {
+  margin-right: 12px;
+}
+.sct_header_2 .nav-link {
+  color: #222222 !important;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_header_2 .nav-link:hover {
+  color: #e81d4f !important;
+}
+.sct_header_2 .active {
+  color: #e81d4f !important;
+}
+.sct_header_2 .btn {
+  font-size: 18px;
+  line-height: 30px;
+  background: #e81d4f;
+  color: #ffffff !important;
+  padding: 8px 20px;
+  margin: 0 28px;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_header_2 .btn:hover {
+  background: #e81d4f78;
+}
+@media (max-width: 425px) {
+  .sct_header_2 .btn {
+    padding: 8px 12px;
+  }
+}
+.sct_header_2__buttonArea ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.sct_header_2__buttonArea ul li {
+  padding-right: 12px;
+}
+.sct_header_2__buttonArea ul li:last-child {
+  padding-right: none;
+}
+.sct_header_2__buttonArea ul li a {
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  -webkit-box-shadow: 1px 0px 3px 0px #ccc;
+          box-shadow: 1px 0px 3px 0px #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_header_2__buttonArea ul li a:hover svg {
+  color: #e81d4f;
+}
+.sct_header_2__buttonArea ul li a svg {
+  color: #263045;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_header_2__admisionBtn {
+  font-size: 18px;
+  line-height: 30px;
+  background: #e81d4f;
+  color: #ffffff;
+  padding: 8px 20px;
+  margin: 0 28px;
+  border: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_header_2__admisionBtn:hover {
+  background: #e81d4f78;
+}

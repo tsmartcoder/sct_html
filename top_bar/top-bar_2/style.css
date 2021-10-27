@@ -1,0 +1,87 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_top-bar_2__section {
+  background: #0a2c3d;
+}
+.sct_top-bar_2__section .sct_top-bar_2__emailArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.sct_top-bar_2__section .sct_top-bar_2__emailArea p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 40px;
+  color: #ffffff;
+  padding: 12px 0;
+  margin: 0 10px;
+  padding-right: 10px;
+  border-right: 1px solid #707070;
+}
+.sct_top-bar_2__section .sct_top-bar_2__emailArea p:last-child {
+  padding-right: none;
+  border-right: none;
+}
+.sct_top-bar_2__section .sct_top-bar_2__emailArea p svg {
+  color: #ffffff;
+  margin-right: 8px;
+}
+@media (max-width: 768px) {
+  .sct_top-bar_2__section .sct_top-bar_2__emailArea p {
+    line-height: 22px;
+    padding: 8px 0;
+    margin: 0;
+    border: none;
+  }
+}
+.sct_top-bar_2__section .sct_top-bar_2__btnArea button {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  line-height: 26px;
+  color: #ffffff;
+  background: #ff5a3c;
+  padding: 19px 28px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_top-bar_2__section .sct_top-bar_2__btnArea button:hover {
+  background: #e81d4f;
+}
+@media (max-width: 768px) {
+  .sct_top-bar_2__section .sct_top-bar_2__btnArea button {
+    line-height: 18px;
+    padding: 8px 16px;
+    margin-bottom: 8px;
+  }
+}
+.sct_top-bar_2__section .sct_top-bar_2 .iconList ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.sct_top-bar_2__section .sct_top-bar_2 .iconList ul li {
+  padding-right: 8px;
+}
+.sct_top-bar_2__section .sct_top-bar_2 .iconList ul li:last-child {
+  padding-right: none;
+}
+.sct_top-bar_2__section .sct_top-bar_2 .iconList ul li a {
+  text-decoration: none;
+  background: transparent;
+}
+.sct_top-bar_2__section .sct_top-bar_2 .iconList ul li a svg {
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_top-bar_2__section .sct_top-bar_2 .iconList ul li a svg:hover {
+  color: #e81d4f;
+}

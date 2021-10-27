@@ -1,0 +1,112 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+.sct_header_2__section {
+	background: #ffffff;
+}
+
+.sct_header_2 {
+	.navbar-collapse {
+		flex-grow: initial;
+	}
+
+	.navbar-brand {
+		display: flex;
+		align-items: center;
+		font-size: 30px;
+		line-height: 30px;
+		letter-spacing: 3px;
+		color: #0a2c3d;
+
+		svg {
+			margin-right: 12px;
+		}
+	}
+
+	.nav-link {
+		color: #222222 !important;
+		transition: 0.3s;
+
+		&:hover {
+			color: #e81d4f !important;
+		}
+	}
+
+	.active {
+		color: #e81d4f !important;
+	}
+
+	.btn {
+		font-size: 18px;
+		line-height: 30px;
+		background: #e81d4f;
+		color: #ffffff !important;
+		padding: 8px 20px;
+		margin: 0 28px;
+		border: none;
+		outline: none;
+		transition: 0.3s;
+
+		&:hover {
+			background: #e81d4f78;
+		}
+
+		@media (max-width: 425px) {
+			padding: 8px 12px;
+		}
+	}
+	&__buttonArea {
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+			display: flex;
+
+			li {
+				padding-right: 12px;
+
+				&:last-child {
+					padding-right: none;
+				}
+
+				a {
+					text-decoration: none;
+					width: 40px;
+					height: 40px;
+					background: #ffffff;
+					box-shadow: 1px 0px 3px 0px #ccc;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					transition: 0.3s;
+
+					&:hover {
+						svg {
+							color: #e81d4f;
+						}
+					}
+
+					svg {
+						color: #263045;
+						transition: 0.3s;
+					}
+				}
+			}
+		}
+	}
+
+	&__admisionBtn {
+		font-size: 18px;
+		line-height: 30px;
+		background: #e81d4f;
+		color: #ffffff;
+		padding: 8px 20px;
+		margin: 0 28px;
+		border: none;
+		transition: 0.3s;
+
+		&:hover {
+			background: #e81d4f78;
+		}
+	}
+}
