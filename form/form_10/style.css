@@ -1,0 +1,69 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_form_10 {
+  margin: 10px;
+  padding: 12px 20px;
+  background: #ffffff;
+  -webkit-box-shadow: 0 0 3px 3px #ccc;
+          box-shadow: 0 0 3px 3px #ccc;
+}
+@media (max-width: 425px) {
+  .sct_form_10 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.sct_form_10 select {
+  width: 100%;
+  height: 100%;
+  color: #5c5b7b;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 8px;
+  outline: none;
+  border: none;
+  border: 1px solid #6a6986;
+  margin: 0 16px;
+}
+.sct_form_10 select:focus {
+  border: 1px solid #ff5a3c;
+}
+@media (max-width: 768px) {
+  .sct_form_10 select {
+    margin-bottom: 12px;
+  }
+}
+.sct_form_10__btnArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sct_form_10__btnArea svg {
+  color: #ff5a3c;
+  margin-right: 12px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_form_10__btnArea svg:hover {
+  color: #E81D4F;
+}
+.sct_form_10__btnArea button {
+  border: none;
+  outline: none;
+  color: #ffffff;
+  background: #ff5a3c;
+  padding: 12px 48px;
+  white-space: nowrap;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_form_10__btnArea button:hover {
+  background: #E81D4F;
+}
