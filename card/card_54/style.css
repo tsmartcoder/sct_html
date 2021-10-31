@@ -1,0 +1,70 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_54 {
+  margin: 10px;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 3px 3px #cccccc;
+          box-shadow: 0 0 3px 3px #cccccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_54:hover {
+  background: #FF5A3C;
+  color: #ffffff;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.sct_card_54:hover h3 {
+  color: #ffffff;
+}
+.sct_card_54__iconOne {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #fff6f6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sct_card_54 h3 {
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  margin: 16px 28px;
+}
+.sct_card_54__iconTwo {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: -27px;
+}

@@ -1,0 +1,143 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_50 {
+	margin: 10px;
+
+	&__imgSection {
+		background: url("https://i.postimg.cc/J0MJj7Sp/dot-shapes.png");
+		background-position: top left;
+		background-repeat: no-repeat;
+		padding: 25px 0 0 25px;
+	}
+
+	&__imgArea {
+		width: 100%;
+		height: 100%;
+		border-radius: 5px;
+		border: 18px solid #ffffff;
+		box-shadow: 0 0 3px 3px #ccc;
+		display: flex;
+		flex-basis: content;
+
+		img {
+			width: 100%;
+			max-height: 100%;
+			border-radius: 5px;
+		}
+	}
+
+	&__descArea {
+		margin-left: 60px;
+
+		@media (max-width: 768px) {
+			margin: 20px 0 0 0;
+		}
+		&__topBtn {
+			font-size: 16px;
+			line-height: 32px;
+			color: #ff5a3c;
+			text-transform: capitalize;
+			border: none;
+			outline: none;
+			background: #ffecec;
+			border-radius: 20px;
+			padding: 4px 20px;
+			transition: 0.3s;
+
+			&:hover {
+				background: #ff5a3c;
+				color: #ffffff;
+			}
+		}
+
+		h2 {
+			font-size: 44px;
+			line-height: 68px;
+			color: #000000;
+			margin: 0;
+			font-weight: bold;
+
+			@media (max-width: 425px) {
+				font-size: 30px;
+				line-height: 36px;
+			}
+		}
+
+		p {
+			font-size: 16px;
+			line-height: 30px;
+			color: #5c727d;
+			margin: 0;
+		}
+
+		a {
+			text-decoration: none;
+			font-size: 16px;
+			line-height: 28px;
+			color: #0a2c3d;
+			transition: 0.3s;
+
+			&:hover {
+				color: #ff5a3c;
+			}
+		}
+
+		.btmBtn {
+			border: none;
+			outline: none;
+			color: #ffffff;
+			font-size: 16px;
+			line-height: 28px;
+			background: #ff5a3c;
+			padding: 12px 28px;
+			transition: 0.3s;
+			margin-top: 20px;
+
+			&:hover {
+				background: blue;
+			}
+
+			@media (max-width: 425px) {
+				padding: 8px 20px;
+			}
+		}
+	}
+
+	&__icon {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 42px;
+		height: 42px;
+		border-radius: 50%;
+		background: #7070706e;
+		transition: 0.3s;
+		margin-right: 12px;
+
+		&:hover {
+			background: #ff5a3c;
+
+			svg {
+				color: #ffffff;
+			}
+		}
+
+		svg {
+			color: #ff5a3c;
+		}
+	}
+
+	&__bani {
+		background: #e5d8d6;
+		padding: 20px 20px;
+		border-left: 4px solid #ff5a3c;
+
+		span {
+			font-size: 16px;
+			line-height: 30px;
+			color: #5c727d;
+		}
+	}
+}

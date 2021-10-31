@@ -1,0 +1,41 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_52 {
+  margin: 10px;
+  background: #ffffff;
+  -webkit-box-shadow: 0 0 3px 3px #cccccc;
+          box-shadow: 0 0 3px 3px #cccccc;
+  text-align: center;
+  padding: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_52:hover {
+  border-bottom: 3px solid #fb5252;
+}
+.sct_card_52 h2 {
+  font-size: 28px;
+  line-height: 26px;
+  color: #000000;
+  margin: 0;
+}
+.sct_card_52 p {
+  margin: 0;
+  color: #5c727d;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 24px 0;
+}
+.sct_card_52 a {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ff5a3c;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_52 a:hover {
+  color: #cccccc;
+}

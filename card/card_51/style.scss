@@ -1,0 +1,49 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_51 {
+	margin: 10px;
+	text-align: center;
+	background: #ffffff;
+	transition: 0.3s;
+	position: relative;
+
+	&:hover {
+		box-shadow: 0 0 3px 3px #cccccc;
+
+		&:after {
+			border-color: #ff5a3c;
+		}
+	}
+
+	h2 {
+		font-size: 42px;
+		line-height: 30px;
+		font-weight: bold;
+		color: #000000;
+		margin-top: 20px;
+	}
+
+	p {
+		font-size: 20px;
+		line-height: 30px;
+		color: #5c727d;
+		margin: 0;
+	}
+
+	&::after {
+		content: "";
+		width: 100%;
+		height: 38px;
+		position: absolute;
+		top: 50%;
+		left: 0;
+		z-index: 10;
+		transform: translateY(-50%);
+		transition: 0.3s;
+		border-left: 3px solid transparent;
+		border-right: 3px solid transparent;
+		transition: 0.3s;
+	}
+}
