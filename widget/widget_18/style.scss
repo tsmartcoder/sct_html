@@ -1,0 +1,67 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+.sct_widget_18 {
+	margin: 10px;
+   padding: 20px;
+	background: #171b2a;
+
+	h2 {
+		font-weight: bold;
+		font-size: 27px;
+		line-height: 37px;
+		color: #ffffff;
+		text-transform: uppercase;
+		margin: 0;
+		margin-bottom: 20px;
+	}
+
+	p {
+		font-size: 18px;
+		line-height: 30px;
+		color: #ffffff;
+		margin: 0;
+		margin-bottom: 24px;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: flex;
+
+		li {
+			margin-right: 12px;
+
+			&:last-child {
+				margin-right: none;
+			}
+		}
+	}
+
+	&__svg {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		position: relative;
+		background: #ffffff;
+		position: relative;
+		transition: 0.3s;
+
+		&:hover {
+			background: #FF5A3C;
+			svg {
+				color: #ffffff;
+			}
+		}
+
+		svg {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: #191919;
+			transition: 0.3s;
+		}
+	}
+}
