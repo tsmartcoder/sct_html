@@ -1,0 +1,77 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_widget_19 {
+	background: #171b2a;
+	padding: 20px;
+	margin: 10px;
+	p {
+		font-size: 18px;
+		line-height: 30px;
+		color: #ffffff;
+		margin: 20px 0;
+		text-align: justify;
+	}
+
+	&__customInput {
+		background: #ffffff;
+		padding: 4px;
+		display: table;
+		width: 100%;
+
+		input {
+			background: #ffffff;
+			border: none;
+			padding: 8px 0 8px 8px;
+			border-radius: 5px 0px 0px 5px;
+			width: 100%;
+
+			&::placeholder {
+				font-size: 16px;
+				line-height: 65px;
+				color: #42518b;
+			}
+
+			&:focus {
+				outline: none;
+			}
+		}
+
+		button {
+			padding: 8px 22px;
+			font-size: 16px;
+			line-height: 28px;
+			background: #ff5a3c;
+			border: none;
+			transition: 0.3s;
+			border-radius: 5px;
+			color: #ffffff;
+
+			&:hover {
+				background: #d26d85;
+			}
+		}
+	}
+
+	&__address {
+		display: flex;
+		align-items: center;
+		margin-bottom: 28px;
+
+		svg {
+			margin-right: 8px;
+		}
+
+		span {
+			font-size: 16px;
+			line-height: 41px;
+			color: #ffffff;
+		}
+	}
+}
+
+.inputArea {
+	width: 100%;
+	display: flex;
+}
