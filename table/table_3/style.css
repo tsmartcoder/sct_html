@@ -1,0 +1,40 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_table_3 {
+  margin-top: 10px;
+}
+.sct_table_3 table {
+  width: 100%;
+  overflow: auto;
+}
+.sct_table_3 table thead tr {
+  border-bottom: 1px solid #93a4c1;
+  text-align: center;
+}
+.sct_table_3 table thead tr td {
+  padding: 8px 0;
+}
+.sct_table_3 table thead tr td h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #0a2c3d;
+}
+.sct_table_3 table tbody tr {
+  text-align: center;
+}
+.sct_table_3 table tbody tr td {
+  padding: 20px 0;
+}
+.sct_table_3 table tbody tr td p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #5c727d;
+  margin: 0;
+}
+.sct_table_3 table tbody .bg-grey {
+  background: #f1f1f3;
+  border-radius: 5px;
+}

@@ -1,0 +1,49 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_table_3 {
+	margin-top: 10px;
+
+	table {
+		width: 100%;
+		overflow: auto;
+
+		thead {
+			tr {
+				border-bottom: 1px solid #93a4c1;
+				text-align: center;
+				td {
+					padding: 8px 0;
+					h3 {
+						font-weight: 600;
+						font-size: 20px;
+						line-height: 30px;
+						color: #0a2c3d;
+					}
+				}
+			}
+		}
+
+		tbody {
+			tr {
+				text-align: center;
+				td {
+					padding: 20px 0;
+
+					p {
+						font-size: 16px;
+						line-height: 22px;
+						color: #5c727d;
+						margin: 0;
+					}
+				}
+			}
+
+			.bg-grey {
+				background: #f1f1f3;
+				border-radius: 5px;
+			}
+		}
+	}
+}
