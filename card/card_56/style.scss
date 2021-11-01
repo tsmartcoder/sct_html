@@ -1,0 +1,65 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_56 {
+	margin: 10px;
+	background: #f1f1f1;
+	border-radius: 5px;
+	//  position: relative;
+	padding: 24px;
+	transition: 0.3;
+
+	&:hover {
+		background: #ff5a3c;
+		.sct_card_56__desc {
+			h2,
+			h3,
+			p {
+				color: #ffffff;
+			}
+		}
+	}
+
+   &__iconArea {
+      display: flex;
+      justify-content: end;
+   }
+
+	&__icon {
+		//  position: absolute;
+		//  top: 3%;
+		//  right: 3%;
+		text-align: right;
+		width: 75px;
+		height: 75px;
+		border-radius: 50%;
+		background: #ffffff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__desc {
+		h3 {
+			color: #ff5a3c;
+			font-size: 20px;
+			line-height: 26px;
+			margin: 0;
+		}
+
+		h2 {
+			margin: 4px 0 12px 0;
+			font-size: 22px;
+			line-height: 26px;
+			color: #0a2c3d;
+		}
+
+		p {
+			font-size: 16px;
+			line-height: 26px;
+			color: #5c727d;
+			margin: 0;
+		}
+	}
+}
