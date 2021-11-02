@@ -1,0 +1,36 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_60 {
+	margin: 10px;
+   padding: 10px;
+	background: #ffffff;
+	text-align: center;
+   transition: .3s;
+   border-radius: 5px;
+
+
+   &:hover {
+      background: #f58727;
+      
+      svg {
+         color: #ffffff;
+      }
+
+       p {
+          color: #ffffff;
+       }
+   }
+
+	svg {
+		color: #f58727;
+	}
+
+	p {
+      font-size: 20px;
+      line-height: 26px;
+      color: #0A2C3D;
+      padding: 16px 0 30px 0;
+	}
+}

@@ -1,0 +1,31 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_60 {
+  margin: 10px;
+  padding: 10px;
+  background: #ffffff;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.sct_card_60:hover {
+  background: #f58727;
+}
+.sct_card_60:hover svg {
+  color: #ffffff;
+}
+.sct_card_60:hover p {
+  color: #ffffff;
+}
+.sct_card_60 svg {
+  color: #f58727;
+}
+.sct_card_60 p {
+  font-size: 20px;
+  line-height: 26px;
+  color: #0A2C3D;
+  padding: 16px 0 30px 0;
+}

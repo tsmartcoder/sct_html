@@ -1,0 +1,96 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_61 {
+  margin: 10px;
+  padding: 20px 16px;
+  background: #ccc;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.sct_card_61:hover {
+  background: #f58727;
+}
+.sct_card_61:hover h2,
+.sct_card_61:hover p {
+  color: #ffffff;
+}
+.sct_card_61:hover button {
+  background: #ffffff;
+  color: #f58727;
+}
+.sct_card_61:hover button span {
+  background: #f58727;
+  color: #ffffff;
+}
+.sct_card_61__svg {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.sct_card_61__svg svg {
+  color: #f58727;
+}
+.sct_card_61 h2 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #0a2c3d;
+  margin: 16px 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_61 p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #5c727d;
+  margin: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_61 button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  line-height: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #f58727;
+  color: #ffffff;
+  padding: 10px 22px;
+  border-radius: 20px;
+  margin-top: 12px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_61 button span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #f58727;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 4px;
+}
