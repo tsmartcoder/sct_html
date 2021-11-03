@@ -1,0 +1,153 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_66 {
+	margin: 10px;
+
+	&__img {
+		width: 100%;
+		height: 100%;
+		position: relative;
+
+		img {
+			border-radius: 3px;
+			width: 100%;
+		}
+
+		&__profile {
+			background: #ffffff;
+			padding: 4px;
+			position: absolute;
+			top: 3%;
+			right: 3%;
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			transition: 0.3s;
+
+			&:hover {
+				background: #ff5a3c;
+			}
+			&__img {
+				width: 50px;
+				height: 50px;
+				border-radius: 50%;
+
+				overflow: hidden;
+			}
+
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+
+	&__desc {
+		margin-top: 16px;
+		padding: 0 12px;
+
+		> span {
+			display: block;
+			font-size: 15px;
+			line-height: 28px;
+			color: #ff5a3c;
+		}
+
+		h3 {
+			font-size: 20px;
+			line-height: 28px;
+			color: #0a2c3d;
+			margin: 0;
+		}
+
+		&__location {
+			display: flex;
+			align-items: center;
+			margin: 8px 0;
+
+			svg {
+				margin-right: 4px;
+				color: #ff5a3c;
+			}
+
+			p {
+				font-size: 12px;
+				line-height: 28px;
+				color: #0a2c3d;
+				margin: 0;
+			}
+		}
+
+		&__item {
+			display: flex;
+
+			p {
+				font-size: 12px;
+				line-height: 28px;
+				color: #0a2c3d;
+				margin: 0 8px 0 0;
+			}
+
+			span {
+				font-size: 12px;
+				line-height: 28px;
+				color: #5c727d;
+			}
+		}
+
+		&__iconList {
+			margin: 12px 0;
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				display: flex;
+
+				li {
+					margin-right: 12px;
+					background: #ededed;
+					padding: 4px 10px;
+					transition: 0.3s;
+
+					&:last-child {
+						margin-right: 0;
+					}
+
+					&:hover {
+						background: #ff5a3c;
+
+						svg {
+							color: #ffffff;
+						}
+					}
+
+					svg {
+						color: #000000;
+						transition: 0.3s;
+					}
+				}
+			}
+		}
+
+		&__price {
+			border-top: 1px solid #ededed;
+			padding: 8px 0 12px 0;
+
+			p {
+				font-size: 18px;
+				line-height: 28px;
+				color: #ff5a3c;
+				margin: 0;
+
+				small {
+					font-size: 12px;
+					line-height: 30px;
+					color: #ff5a3c;
+				}
+			}
+		}
+	}
+}
