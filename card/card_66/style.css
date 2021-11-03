@@ -4,6 +4,9 @@ body {
 
 .sct_card_66 {
   margin: 10px;
+  padding: 4px;
+  -webkit-box-shadow: 0 0 3px 3px #cccccc;
+          box-shadow: 0 0 3px 3px #cccccc;
 }
 .sct_card_66__img {
   width: 100%;
