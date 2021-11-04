@@ -1,0 +1,197 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_form_11 {
+  margin: 20px;
+  padding: 40px 60px;
+  -webkit-box-shadow: 0 0 3px 3px #cccccc;
+          box-shadow: 0 0 3px 3px #cccccc;
+}
+.sct_form_11__titleArea h2 {
+  font-size: 42px;
+  line-height: 60px;
+  color: #0a2c3d;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .sct_form_11__titleArea h2 br {
+    display: none;
+  }
+}
+@media (max-width: 425px) {
+  .sct_form_11__titleArea h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+.sct_form_11__titleArea__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 4px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+@media (max-width: 425px) {
+  .sct_form_11__titleArea__items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+}
+.sct_form_11__titleArea__items:hover {
+  background: #ededed;
+  border-radius: 30px;
+}
+.sct_form_11__titleArea__items__svg {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #ff5a3c;
+  margin-right: 16px;
+}
+.sct_form_11__titleArea__items__svg svg {
+  color: #ffffff;
+}
+.sct_form_11__titleArea__items__name p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #0a2c3d;
+  margin: 0;
+}
+.sct_form_11__titleArea__items__name span {
+  font-size: 16px;
+  line-height: 30px;
+  color: #5c727d;
+}
+.sct_form_11__formArea {
+  margin-left: 72px;
+  padding: 20px 0;
+}
+@media (max-width: 768px) {
+  .sct_form_11__formArea {
+    margin-left: 0;
+  }
+}
+.sct_form_11__formArea input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #f5f5f7;
+  padding: 12px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_form_11__formArea input::-webkit-input-placeholder {
+  font-size: 16px;
+  line-height: 28px;
+  color: #5c727d;
+}
+.sct_form_11__formArea input::-moz-placeholder {
+  font-size: 16px;
+  line-height: 28px;
+  color: #5c727d;
+}
+.sct_form_11__formArea input:-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 28px;
+  color: #5c727d;
+}
+.sct_form_11__formArea input::-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 28px;
+  color: #5c727d;
+}
+.sct_form_11__formArea input::placeholder {
+  font-size: 16px;
+  line-height: 28px;
+  color: #5c727d;
+}
+.sct_form_11__formArea select {
+  color: #5c727d;
+  font-size: 16px;
+  line-height: 28px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #f5f5f7;
+  padding: 12px;
+}
+.sct_form_11__formArea textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #f5f5f7;
+  padding: 12px;
+}
+.sct_form_11__formArea button {
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  background: #ff5a3c;
+  padding: 16px 28px;
+  border-radius: 3px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_form_11__formArea button:hover {
+  background: #bf0026;
+}
+@media (max-width: 425px) {
+  .sct_form_11__formArea button {
+    font-size: 16px;
+    line-height: 18px;
+    padding: 8px 16px;
+  }
+}
+
+.input {
+  position: relative;
+  border: 1px solid transparent;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.input:hover {
+  border-color: #ff5a3c;
+}
+.input:hover svg {
+  color: #ff5a3c;
+}
+.input svg {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: #505975;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.textArea {
+  position: relative;
+}
+.textArea svg {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
