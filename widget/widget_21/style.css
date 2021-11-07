@@ -1,0 +1,39 @@
+body {
+  font-family: "Lato", sans-serif;
+  background: #333333;
+}
+
+.sct_widget_21 h2 {
+  color: #ffffff;
+  padding: 24px 0;
+  font-size: 20px;
+  margin: 0;
+}
+.sct_widget_21 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.sct_widget_21 ul li {
+  padding: 8px 0;
+}
+.sct_widget_21 ul li a {
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_widget_21 ul li a:hover {
+  text-decoration: underline;
+}
+.sct_widget_21 ul li a p {
+  font-size: 13px;
+  line-height: 18px;
+  margin: 0;
+  font-weight: 600;
+  color: #ffffff;
+}
+.sct_widget_21 ul li a small {
+  font-size: 11px;
+  line-height: 18px;
+  color: #ffffff;
+}
