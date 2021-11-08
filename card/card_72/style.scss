@@ -1,0 +1,130 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_72 {
+	background: #ededed;
+	margin: 10px;
+}
+
+.sct_post_list {
+	.nav-link {
+		text-transform: uppercase;
+		font-size: 12px;
+		line-height: 30px;
+		padding: 1px 14px;
+		border-radius: 0;
+		color: #232322;
+		border: none;
+		margin-right: 10px;
+		background: #ffffff;
+		box-shadow: inset 0px 0px 0px 2px #232323;
+
+		&.active,
+		&:hover {
+			color: #ffffff;
+			background: #232323;
+			box-shadow: inset 0px 0px 0px 2px #232323;
+		}
+	}
+}
+
+.post-item_one {
+	height: 220px;
+	margin-top: 20px;
+	background: linear-gradient(to bottom, #cccccc, #3f3f3f);
+	position: relative;
+
+	.shape {
+		width: 0;
+		height: 0;
+		border-top: 55px solid #05d4ab;
+		border-right: 55px solid transparent;
+		position: relative;
+
+		p {
+			position: absolute;
+			top: -50px;
+			left: 8px;
+			color: #ffffff;
+			font-size: 14px;
+			line-height: 30px;
+			font-weight: bold;
+		}
+	}
+
+	.post-disc {
+		margin-left: 20px;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+
+		h3 {
+			font-size: 16px;
+			line-height: 30px;
+			color: #ffffff;
+		}
+
+		p {
+			font-size: 9px;
+			line-height: 30px;
+			color: #ffffff;
+			padding-left: 10px;
+			position: relative;
+
+			&::before {
+				content: " ";
+				position: absolute;
+				width: 5px;
+				height: 8px;
+				background: #ffffff;
+				top: calc(50% - 4px);
+				left: 0;
+			}
+		}
+	}
+}
+
+.post-item_two {
+	background: transparent;
+	.post_group {
+		display: flex;
+		border-bottom: 1px solid #dddddd;
+		padding: 20px 0 10px 0;
+
+		.group-shape {
+			width: 0;
+			height: 0;
+			border-top: 27px solid #05d4ab;
+			border-right: 27px solid transparent;
+			position: relative;
+
+			p {
+				position: absolute;
+				top: -34px;
+				left: 3px;
+				color: #ffffff;
+				font-size: 12px;
+				line-height: 30px;
+				font-weight: bold;
+			}
+		}
+
+		.post_group__disc {
+			margin: -8px 0 0 20px;
+			h3 {
+				font-size: 14px;
+				line-height: 30px;
+				color: #232323;
+				margin: 0;
+			}
+
+			p {
+				font-size: 9px;
+				line-height: 30px;
+				color: #232323;
+				margin: 0;
+			}
+		}
+	}
+}
