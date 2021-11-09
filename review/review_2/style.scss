@@ -1,0 +1,149 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_review_2 {
+	margin-top: 20px;
+
+	.nav-link {
+		text-transform: uppercase;
+		font-size: 12px;
+		line-height: 30px;
+		padding: 1px 14px;
+		border-radius: 0;
+		color: #232322;
+		border: none;
+		margin-right: 10px;
+		background: #ffffff;
+		box-shadow: inset 0px 0px 0px 2px #232323;
+		margin-top: -17px;
+		z-index: 2;
+
+		&.active,
+		&:hover {
+			color: #ffffff;
+			background: #232323;
+			box-shadow: inset 0px 0px 0px 2px #232323;
+		}
+	}
+
+	.nav-tabs {
+		border: none;
+	}
+
+	&__cmntUser {
+		&__userDesc {
+			display: flex;
+			padding: 20px 0;
+
+			.user-profile {
+				width: 80px;
+				height: 80px;
+
+				img {
+					width: 100%;
+				}
+			}
+
+			.cmnt-desc {
+				padding-left: 20px;
+
+				span {
+					font-size: 10px;
+					line-height: 22px;
+					color: #999999;
+				}
+
+				p {
+					font-size: 14px;
+					line-height: 22px;
+					color: #333333;
+				}
+
+				.user-name {
+					display: flex;
+
+					h2 {
+						font-size: 13px;
+						line-height: 22px;
+						color: #333333;
+						margin: 0;
+					}
+
+					span {
+						font-size: 12px;
+						line-height: 22px;
+						color: #05d4ab;
+						padding-left: 24px;
+					}
+				}
+			}
+		}
+
+		&__userReply {
+			display: flex;
+			justify-content: space-between;
+			padding: 20px 0;
+
+			.reply-icon {
+				margin: 10px 40px 0 0;
+				svg {
+					transform: rotate(180deg);
+					color: #333333;
+				}
+			}
+
+			.reply-desc {
+				margin-right: 10px;
+				.user-name {
+					display: flex;
+					justify-content: space-between;
+
+					span {
+						font-size: 12px;
+						line-height: 22px;
+						color: #05d4ab;
+						padding-left: 24px;
+						padding: 0;
+					}
+
+					h2 {
+						font-size: 13px;
+						line-height: 22px;
+						color: #333333;
+						margin: 0;
+					}
+				}
+
+				span {
+					font-size: 10px;
+					line-height: 22px;
+					color: #999999;
+					display: block;
+					text-align: right;
+				}
+
+				p {
+					font-size: 14px;
+					line-height: 22px;
+					color: #333333;
+					margin: 0;
+				}
+			}
+
+			.reply-profile {
+				width: 60px;
+				height: 60px;
+
+				img {
+					width: 100%;
+				}
+				span {
+					font-size: 10px;
+					line-height: 22px;
+					color: #000;
+				}
+			}
+		}
+	}
+}
