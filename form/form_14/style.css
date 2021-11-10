@@ -51,3 +51,9 @@ body {
   text-align: center;
   padding: 20px 0 40px 0;
 }
+.sct_form_14 > p a {
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+  text-decoration: underline;
+}
