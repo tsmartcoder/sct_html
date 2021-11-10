@@ -1,0 +1,50 @@
+ body {
+    font-family: 'Lato', sans-serif;
+ }
+
+ .sct_form_12 {
+    margin: 10px;
+
+    form {
+       span {
+          font-size: 14px;
+          line-height: 22px;
+          color: #333333;
+          display: block;
+          padding: 4px 0;
+       }
+       input {
+          width: 50%;
+          border: 1px solid #dddddd;
+          outline: none;
+          padding: 4px 0;
+
+          @media (max-width:425px) {
+             width: 100%;
+          }
+       }
+
+       textarea {
+          width: 100%;
+          border: 1px solid #dddddd;
+       }
+    }
+
+    button {
+       font-size: 14px;
+       line-height: 22px;
+       color: #ffffff;
+       background: #05D4AB;
+       padding: 12px 24px;
+       border-radius: 4px;
+       border: none;
+       outline: none;
+       margin-top: 4px;
+       transition: .3s;
+
+
+       &:hover {
+          background: red;
+       }
+    }
+ }
