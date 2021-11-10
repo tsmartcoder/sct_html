@@ -1,0 +1,116 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_page_5 {
+  background: #ffffff;
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+.sct_page_5 h2 {
+  font-size: 48px;
+  line-height: 30px;
+  color: #232323;
+  margin: 0;
+  padding-bottom: 20px;
+}
+@media (max-width: 425px) {
+  .sct_page_5 h2 {
+    font-size: 24px;
+  }
+}
+.sct_page_5 input {
+  font-size: 24px;
+  line-height: 30px;
+  color: #232323;
+  padding: 15px 20px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #dddddd;
+}
+.sct_page_5 input::-webkit-input-placeholder {
+  color: #878787;
+}
+.sct_page_5 input::-moz-placeholder {
+  color: #878787;
+}
+.sct_page_5 input:-ms-input-placeholder {
+  color: #878787;
+}
+.sct_page_5 input::-ms-input-placeholder {
+  color: #878787;
+}
+.sct_page_5 input::placeholder {
+  color: #878787;
+}
+@media (max-width: 425px) {
+  .sct_page_5 input {
+    padding: 8px 12px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+.sct_page_5 p {
+  font-size: 14px;
+  line-height: 30px;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+  padding: 12px 0;
+}
+@media (max-width: 425px) {
+  .sct_page_5 p {
+    padding: 4px 0;
+  }
+}
+.sct_page_5 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.sct_page_5 ul li {
+  padding: 4px 0;
+}
+@media (max-width: 425px) {
+  .sct_page_5 ul li {
+    padding: 0;
+  }
+}
+.sct_page_5 ul li a {
+  font-size: 18px;
+  line-height: 30px;
+  color: #05d4ab;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_page_5 ul li a:hover {
+  text-decoration: underline;
+}
