@@ -1,0 +1,86 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_form_13 {
+  margin: 10px;
+  padding: 20px 40px;
+  background: #ffffff;
+}
+.sct_form_13 h5 {
+  font-size: 12px;
+  line-height: 28px;
+  color: #232323;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+.sct_form_13 form {
+  padding: 0 20px;
+}
+.sct_form_13 form input {
+  width: 100%;
+  color: #878787;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #e1e1e1;
+}
+.sct_form_13__submitArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 20px;
+}
+.sct_form_13__submitArea button {
+  color: #ffffff;
+  background: #05d4ab;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 3px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.sct_form_13__submitArea button:hover {
+  background: red;
+}
+.sct_form_13__submitArea p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+  margin: 0;
+}
+.sct_form_13__submitArea p a {
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+  text-decoration: underline;
+}
+.sct_form_13__forgetPasswrod {
+  padding: 20px 0;
+  background: #f4f4f4;
+}
+.sct_form_13__forgetPasswrod a {
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+  text-decoration: underline;
+  text-align: center;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_form_13__forgetPasswrod a:hover {
+  color: red;
+}
