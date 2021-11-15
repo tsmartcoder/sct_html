@@ -1,0 +1,73 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.logoArea button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  background: #090761;
+  padding: 4px 8px;
+  border: none;
+  outline: none;
+  margin-right: 8px;
+}
+.logoArea button:hover {
+  color: #ffffff;
+}
+.logoArea button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.logoArea button svg {
+  margin-right: 4px;
+}
+
+.custom_input {
+  position: relative;
+  border: 1px solid #e7e7ec;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.custom_input input {
+  outline: none;
+  border: none;
+  padding: 4px 24px;
+  margin-left: 8px;
+}
+.custom_input input::-webkit-input-placeholder {
+  font-size: 16px;
+  line-height: 23px;
+  color: #77838f;
+}
+.custom_input input::-moz-placeholder {
+  font-size: 16px;
+  line-height: 23px;
+  color: #77838f;
+}
+.custom_input input:-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 23px;
+  color: #77838f;
+}
+.custom_input input::-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 23px;
+  color: #77838f;
+}
+.custom_input input::placeholder {
+  font-size: 16px;
+  line-height: 23px;
+  color: #77838f;
+}
+.custom_input svg {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 4%;
+}
