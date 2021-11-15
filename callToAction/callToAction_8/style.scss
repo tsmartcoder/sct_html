@@ -1,0 +1,56 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_callToAction_8 {
+	margin: 10px;
+	text-align: center;
+
+	h2 {
+		font-weight: 600;
+		font-size: 35px;
+		line-height: 51px;
+		color: #2f2d51;
+		margin: 0;
+
+		@media (max-width: 425px) {
+			font-size: 22px;
+			line-height: 28px;
+		}
+	}
+
+	p {
+		font-size: 18px;
+		line-height: 30px;
+		color: #77838f;
+		margin: 8px 0 20px 0;
+
+		@media (max-width: 425px) {
+			font-size: 16px;
+         line-height: 20px;
+         margin: 8px 0 12px 0;
+		}
+	}
+
+	button {
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 23px;
+		color: #ffffff;
+		border: none;
+		outline: none;
+		background: #2f2d51;
+		padding: 20px 48px;
+		border-radius: 20px;
+		transition: 0.3s;
+
+		&:hover {
+			background: red;
+		}
+
+      
+		@media (max-width: 425px) {
+		padding:8px 28px ;
+		}
+	}
+}
