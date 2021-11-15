@@ -1,0 +1,97 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_callToAction_7 {
+  text-align: center;
+  padding: 40px 0;
+}
+.sct_callToAction_7 h2 {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 51px;
+  margin: 0;
+  text-transform: capitalize;
+}
+@media (max-width: 425px) {
+  .sct_callToAction_7 h2 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+.sct_callToAction_7 p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #77838f;
+  margin: 0;
+}
+@media (max-width: 425px) {
+  .sct_callToAction_7 p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+.sct_callToAction_7__form {
+  margin: 0 auto;
+  display: table;
+  margin-top: 20px;
+}
+.sct_callToAction_7__form input {
+  background: #ffffff;
+  padding: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #e7e7ec;
+  outline: none;
+  border-radius: 5px 0 0 5px;
+}
+.sct_callToAction_7__form input::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 30px;
+  color: #77838f;
+}
+.sct_callToAction_7__form input::-moz-placeholder {
+  font-size: 14px;
+  line-height: 30px;
+  color: #77838f;
+}
+.sct_callToAction_7__form input:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 30px;
+  color: #77838f;
+}
+.sct_callToAction_7__form input::-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 30px;
+  color: #77838f;
+}
+.sct_callToAction_7__form input::placeholder {
+  font-size: 14px;
+  line-height: 30px;
+  color: #77838f;
+}
+@media (max-width: 425px) {
+  .sct_callToAction_7__form input {
+    padding: 8px;
+  }
+}
+.sct_callToAction_7__form button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+  background: #b253f6;
+  padding: 17px 52px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_callToAction_7__form button:hover {
+  background: red;
+}
+@media (max-width: 425px) {
+  .sct_callToAction_7__form button {
+    padding: 9px 24px;
+  }
+}
