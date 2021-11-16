@@ -1,0 +1,50 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_86 {
+  margin: 10px;
+  background: #ffffff;
+  text-align: center;
+  padding: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_86:hover {
+  -webkit-box-shadow: 0 0 3px 3px #cccccc;
+          box-shadow: 0 0 3px 3px #cccccc;
+}
+.sct_card_86:hover .sct_card_86__svg svg {
+  color: #090761;
+}
+.sct_card_86__svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.sct_card_86__svg svg {
+  color: #949da6;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_86__desc {
+  margin-left: 8px;
+}
+.sct_card_86__desc p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #2f2d51;
+  margin: 0;
+}
+.sct_card_86__desc span {
+  font-size: 16px;
+  line-height: 23px;
+  color: #77838f;
+}
