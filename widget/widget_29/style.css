@@ -1,0 +1,70 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_widget_29 {
+  margin-top: 12px;
+}
+.sct_widget_29 h2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #2f2d51;
+  margin-bottom: 16px;
+}
+.sct_widget_29 p {
+  font-size: 14px;
+  line-height: 35px;
+  color: #77848f;
+  margin-bottom: 16px;
+}
+.sct_widget_29 .custom-input {
+  display: table;
+}
+.sct_widget_29 .custom-input input {
+  padding: 12px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 12px 0 0 12px;
+}
+.sct_widget_29 .custom-input input::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 30px;
+  color: #77848f;
+}
+.sct_widget_29 .custom-input input::-moz-placeholder {
+  font-size: 14px;
+  line-height: 30px;
+  color: #77848f;
+}
+.sct_widget_29 .custom-input input:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 30px;
+  color: #77848f;
+}
+.sct_widget_29 .custom-input input::-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 30px;
+  color: #77848f;
+}
+.sct_widget_29 .custom-input input::placeholder {
+  font-size: 14px;
+  line-height: 30px;
+  color: #77848f;
+}
+.sct_widget_29 .custom-input button {
+  padding: 13px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  background: #2f2d51;
+  border-radius: 0 12px 12px 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_widget_29 .custom-input button:hover {
+  background: red;
+}
