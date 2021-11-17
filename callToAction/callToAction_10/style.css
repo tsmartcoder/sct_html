@@ -1,0 +1,113 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_callToAction_10 {
+  margin-top: 10px;
+  padding: 60px 20px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0.26%, #ffa35a), color-stop(100.08%, #ff2574));
+  background: linear-gradient(90deg, #ffa35a 0.26%, #ff2574 100.08%);
+  border-radius: 8px;
+}
+@media (max-width: 768px) {
+  .sct_callToAction_10 {
+    text-align: center;
+    padding: 40px 8px;
+  }
+}
+.sct_callToAction_10__titleArea h2 {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 51px;
+  color: #ffffff;
+  margin: 0;
+  text-transform: capitalize;
+}
+@media (max-width: 425px) {
+  .sct_callToAction_10__titleArea h2 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+.sct_callToAction_10__titleArea p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin: 0;
+}
+@media (max-width: 425px) {
+  .sct_callToAction_10__titleArea p {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 8px 0;
+  }
+}
+.sct_callToAction_10__inputArea {
+  background: #ffffff;
+  padding: 4px;
+  border-radius: 4px;
+}
+@media (max-width: 768px) {
+  .sct_callToAction_10__inputArea {
+    width: 100%;
+    margin-top: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+.sct_callToAction_10__inputArea input {
+  border: none;
+  outline: none;
+}
+.sct_callToAction_10__inputArea input::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 30px;
+  color: #77848f;
+}
+.sct_callToAction_10__inputArea input::-moz-placeholder {
+  font-size: 14px;
+  line-height: 30px;
+  color: #77848f;
+}
+.sct_callToAction_10__inputArea input:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 30px;
+  color: #77848f;
+}
+.sct_callToAction_10__inputArea input::-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 30px;
+  color: #77848f;
+}
+.sct_callToAction_10__inputArea input::placeholder {
+  font-size: 14px;
+  line-height: 30px;
+  color: #77848f;
+}
+.sct_callToAction_10__inputArea button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+  background: #2f2d51;
+  padding: 16px 40px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_callToAction_10__inputArea button:hover {
+  background: #ff2574;
+}
+@media (max-width: 425px) {
+  .sct_callToAction_10__inputArea button {
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+}
