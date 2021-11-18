@@ -1,0 +1,82 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.logoArea {
+	button {
+		display: flex;
+		align-items: center;
+		color: #ffffff;
+		background: #090761;
+		border: none;
+		outline: none;
+		margin-right: 8px;
+
+		&:hover {
+			color: #ffffff;
+		}
+
+		&:focus {
+			box-shadow: none;
+		}
+
+		svg {
+			margin-right: 4px;
+		}
+	}
+}
+
+.custom_input {
+	position: relative;
+	border: 1px solid #e7e7ec;
+	box-sizing: border-box;
+
+	@media (max-width: 768px) {
+		border: none;
+	}
+
+	input {
+		outline: none;
+		border: none;
+		padding: 4px 24px;
+		margin-left: 8px;
+		&::placeholder {
+			font-size: 16px;
+			line-height: 23px;
+			color: #77838f;
+		}
+	}
+
+	svg {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: 4%;
+	}
+
+	button {
+		border: none;
+		outline: none;
+		background: none;
+
+		&:focus {
+			box-shadow: none;
+		}
+	}
+	.btn-secondary:hover {
+		background: none;
+	}
+	.btn-secondary:active {
+		background: none;
+		box-shadow: none;
+	}
+	.dropdown-toggle::after {
+		display: none;
+	}
+}
+
+.searchArea {
+	ul {
+		list-style-type: none;
+	}
+}
