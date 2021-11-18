@@ -1,0 +1,85 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_96 {
+	margin-top: 10px;
+   box-shadow: 0 0 1px 1px #ccc;
+   padding: 16px;
+
+	&__profleArea {
+		&__picture {
+			width: 120px;
+			height: 120px;
+			border-radius: 50%;
+			overflow: hidden;
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+
+		a {
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 26px;
+			color: #2f2d51;
+			text-decoration: none;
+			margin-left: 20px;
+			transition: 0.3s;
+
+			&:hover {
+				text-decoration: underline;
+			}
+
+			@media (max-width: 425px) {
+				br {
+					display: none;
+				}
+			}
+		}
+	}
+
+	&__desc {
+		&__location {
+			margin-right: 40px;
+			&__time,
+			&__address {
+				svg {
+					margin-right: 12px;
+				}
+				span {
+					font-size: 14px;
+					line-height: 20px;
+					color: #77848f;
+				}
+			}
+		}
+
+		&__date {
+			padding: 0 40px;
+			span {
+				font-weight: 600;
+				font-size: 20px;
+				line-height: 29px;
+				color: #21325b;
+				display: block;
+			}
+
+			small {
+				font-size: 14px;
+				line-height: 18px;
+				color: #21325b;
+				display: block;
+			}
+		}
+
+		a {
+			font-weight: 600;
+			font-size: 16px;
+			line-height: 23px;
+			text-align: center;
+			text-decoration-line: underline;
+		}
+	}
+}
