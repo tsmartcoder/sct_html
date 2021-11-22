@@ -1,0 +1,127 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+.sct_form_16 {
+	margin-top: 20px;
+	padding: 40px;
+	border: 1px solid #e7e7ec;
+	box-sizing: border-box;
+	box-shadow: 0px 8px 15px rgba(140, 152, 164, 0.1);
+	border-radius: 4px;
+	background: #ffffff;
+
+	@media (max-width: 425px) {
+		margin-top: 10px;
+		padding: 10px;
+	}
+
+	h4 {
+		font-weight: 600;
+		font-size: 22px;
+		line-height: 32px;
+		color: #2f2d51;
+		margin: 0;
+	}
+
+	p {
+		font-size: 16px;
+		line-height: 30px;
+		color: #77838f;
+		margin: 8px 0;
+
+		@media (max-width: 425px) {
+			margin: 4px 0;
+		}
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		align-items: center;
+
+		li {
+			padding-right: 16px;
+		}
+	}
+
+	form {
+		padding: 20px 0;
+
+		@media (max-width: 425px) {
+			padding: 8px 0;
+		}
+
+		label {
+			font-size: 16px;
+			line-height: 30px;
+			display: block;
+			margin-top: 16px;
+			margin-bottom: 8px;
+
+			@media (max-width: 425px) {
+				margin: 4px 0;
+			}
+		}
+
+		input {
+			border: 1px solid #090761;
+			box-sizing: border-box;
+			box-shadow: 0px 8px 15px rgba(140, 152, 164, 0.1);
+			border-radius: 4px;
+			outline: none;
+			width: 100%;
+			padding: 16px;
+			font-size: 16px;
+			line-height: 20px;
+
+			&::placeholder {
+				font-size: 14px;
+				line-height: 30px;
+				color: #77838f;
+				padding: 16px;
+			}
+		}
+
+		textarea {
+			width: 100%;
+			outline: none;
+			border: 1px solid #e7e7ec;
+			box-sizing: border-box;
+			border-radius: 4px;
+			padding: 16px;
+			resize: none;
+
+			&::placeholder {
+				font-size: 14px;
+				line-height: 30px;
+				color: #77838f;
+				padding: 12px;
+			}
+		}
+
+		button {
+			font-weight: 600;
+			font-size: 16px;
+			line-height: 23px;
+			text-transform: uppercase;
+			background: #090761;
+			padding: 16px 100px;
+			color: #ffffff;
+			margin-top: 20px;
+			border-radius: 4px;
+			transition: 0.3s;
+			border: none;
+			outline: none;
+
+			&:hover {
+				background: red;
+			}
+
+			@media (max-width: 425px) {
+				width: 100%;
+			}
+		}
+	}
+}
