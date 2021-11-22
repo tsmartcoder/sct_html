@@ -1,0 +1,79 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_104 {
+	margin-top: 20px;
+
+	> ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+
+		> li {
+			padding-bottom: 20px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+			&:nth-child(2) {
+				.sct_card_104__progressArea__progressBar {
+					width: 40%;
+				}
+			}
+			&:nth-child(3) {
+				.sct_card_104__progressArea__progressBar {
+					width: 30%;
+				}
+			}
+			&:nth-child(4) {
+				.sct_card_104__progressArea__progressBar {
+					width: 10%;
+				}
+			}
+		}
+	}
+
+	&__progressArea {
+		width: 100%;
+		height: 12px;
+		border-radius: 20px;
+		background: #e7e7ec;
+		margin-right: 20px;
+      display: block;
+
+		&__progressBar {
+			width: 80%;
+			height: 100%;
+			background: #4a8f9f;
+			border-radius: 20px;
+		}
+	}
+
+	&__iconArea {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+      width: 100%;
+
+		> ul {
+			display: flex;
+			padding: 0;
+			margin: 0;
+			list-style-type: none;
+
+			> li {
+				padding-right: 12px;
+			}
+		}
+
+		span {
+			font-size: 16px;
+			line-height: 58px;
+			color: #77838f;
+         width: 100%;
+		}
+	}
+}
