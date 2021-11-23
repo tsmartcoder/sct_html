@@ -1,0 +1,127 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_accordion_6 {
+  margin-top: 20px;
+}
+.sct_accordion_6 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.sct_accordion_6 ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 16px;
+  -webkit-box-shadow: 0 0 1px 1px #ccc;
+          box-shadow: 0 0 1px 1px #ccc;
+}
+.sct_accordion_6 ul .white {
+  background: #ffffff;
+}
+.sct_accordion_6 ul .grey {
+  background: #f7f9fb;
+}
+.sct_accordion_6__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sct_accordion_6__title svg {
+  margin-right: 12px;
+}
+.sct_accordion_6__title p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #77838f;
+  margin: 0;
+}
+.sct_accordion_6__desc .question {
+  font-size: 14px;
+  line-height: 30px;
+  color: #2f2d51;
+  background: #ffc78b;
+  padding: 8px 12px;
+  border-radius: 4px;
+  opacity: 0.7;
+}
+.sct_accordion_6__desc .min {
+  font-size: 14px;
+  line-height: 30px;
+  color: #ffffff;
+  background: #196ecd;
+  padding: 8px 12px;
+  border-radius: 4px;
+  opacity: 0.6;
+}
+.sct_accordion_6__desc span {
+  margin-right: 32px;
+}
+
+.accordion-item {
+  margin-bottom: 32px;
+}
+
+.accordion-body {
+  padding: 0;
+}
+
+.accordion-button::after {
+  background: none;
+  -webkit-transform: none;
+          transform: none;
+  content: "+";
+  height: 100%;
+  font-size: 30px;
+  position: absolute;
+  left: 16px;
+  top: 20px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #2f2d51;
+  background: #ffffff;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background: none;
+  content: "-";
+  position: absolute;
+  top: -17px;
+  left: 10px;
+}
+
+.accordion-button:focus {
+  border: 1px solid #e7e7ec;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 8px 15px rgba(140, 152, 164, 0.1);
+          box-shadow: 0px 8px 15px rgba(140, 152, 164, 0.1);
+  border-radius: 4px;
+}
+
+.accordion-button {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #2f2d51;
+  padding: 20px;
+  padding-left: 40px;
+  border: 1px solid #e7e7ec;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 8px 15px rgba(140, 152, 164, 0.1);
+          box-shadow: 0px 8px 15px rgba(140, 152, 164, 0.1);
+  border-radius: 4px;
+}
