@@ -1,0 +1,149 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_110 {
+	margin-top: 12px;
+	padding: 0 12px;
+	border: 1px solid #e7e7ec;
+	box-sizing: border-box;
+	box-shadow: 0px 8px 15px rgba(140, 152, 164, 0.1);
+	border-radius: 4px;
+
+	&__priceArea {
+		margin: 16px 0;
+		padding-left: 16px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		&__price {
+			display: flex;
+			align-items: center;
+
+			h2 {
+				font-weight: 600;
+				font-size: 30px;
+				line-height: 43px;
+				color: #2f2d51;
+				margin: 0;
+			}
+
+			span {
+				font-size: 16px;
+				line-height: 23px;
+				text-decoration-line: line-through;
+				text-transform: capitalize;
+				margin-left: 16px;
+			}
+		}
+
+		&__discount {
+			span {
+				font-size: 14px;
+				line-height: 20px;
+				text-transform: capitalize;
+				color: #77838f;
+				background: #b8b2fd;
+				color: #ffffff;
+				padding: 8px 12px;
+				border-radius: 4px;
+			}
+		}
+	}
+
+	&__upcomingPrice {
+		margin-bottom: 12px;
+		padding-left: 16px;
+
+		svg {
+			margin-right: 12px;
+		}
+
+		> span {
+			font-size: 16px;
+			line-height: 23px;
+			text-transform: capitalize;
+			color: #ec5252;
+		}
+	}
+
+	ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		margin-left: 16px;
+		display: flex;
+		flex-direction: column;
+
+		li {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 12px 0;
+			border-bottom: 1px solid #ccc;
+
+			&:last-child {
+				border-bottom: none;
+			}
+
+			svg {
+				margin-right: 12px;
+			}
+
+			a {
+				text-decoration: none;
+				font-weight: 600;
+				font-size: 16px;
+				line-height: 20px;
+				color: #2f2d51;
+			}
+
+			span {
+				font-size: 16px;
+				line-height: 20px;
+				color: #77838f;
+			}
+		}
+	}
+
+	button {
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 23px;
+		text-transform: uppercase;
+		background: #090761;
+		border: none;
+		outline: none;
+		color: #ffffff;
+		padding: 16px 0;
+		margin: 8px auto;
+		border-radius: 4px;
+		transition: 0.3s;
+		width: 100%;
+      white-space: nowrap;
+
+		&:hover {
+			background: red;
+		}
+	}
+
+	&__share {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 12px 0;
+
+		svg {
+			margin-right: 20px;
+		}
+
+		a {
+			text-decoration: none;
+			font-weight: 600;
+			font-size: 16px;
+			line-height: 20px;
+			color: #77838f;
+		}
+	}
+}
