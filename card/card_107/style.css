@@ -1,0 +1,124 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_107 {
+  margin-top: 10px;
+  padding: 8px;
+  border: 1px solid #e7e7ec;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+}
+.sct_card_107__img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.sct_card_107__img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+.sct_card_107__img__icon {
+  position: absolute;
+  top: 4%;
+  left: 4%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_107__img__icon:hover {
+  cursor: pointer;
+}
+.sct_card_107__img button {
+  position: absolute;
+  left: 4%;
+  bottom: 4%;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #ff9574;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+.sct_card_107__desc {
+  padding-left: 8px;
+}
+@media (max-width: 425px) {
+  .sct_card_107__desc {
+    padding-left: 0;
+  }
+}
+.sct_card_107__desc__category {
+  margin-bottom: 4px;
+}
+.sct_card_107__desc__category span {
+  font-size: 16px;
+  line-height: 30px;
+  color: #77838f;
+}
+.sct_card_107__desc a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #2f2d51;
+  margin-bottom: 4px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin: 12px 0;
+}
+.sct_card_107__desc a:hover {
+  text-decoration: underline;
+}
+.sct_card_107__desc > span {
+  font-size: 16px;
+  line-height: 30px;
+  color: #77838f;
+  display: block;
+  margin: 4px 0;
+}
+.sct_card_107__desc__prograssTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.sct_card_107__desc__prograssTitle span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  color: #77838f;
+}
+.sct_card_107__desc__prograssBar {
+  margin: 4px 0;
+  width: 100%;
+  height: 10px;
+  background: #e7e7ec;
+  border-radius: 20px;
+}
+.sct_card_107__desc__prograssBar__bar {
+  width: 25%;
+  height: 100%;
+  border-radius: 20px;
+  background: #196ecd;
+}
