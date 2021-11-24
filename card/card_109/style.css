@@ -1,0 +1,101 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_109 {
+  margin-top: 10px;
+  padding: 8px;
+  border: 1px solid #e7e7ec;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 8px 15px rgba(140, 152, 164, 0.1);
+          box-shadow: 0px 8px 15px rgba(140, 152, 164, 0.1);
+  border-radius: 4px;
+}
+.sct_card_109__img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+.sct_card_109__img:hover::after {
+  top: 0;
+  left: 0;
+}
+.sct_card_109__img::after {
+  content: "GET TICKET";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -100%;
+  left: -100%;
+  text-decoration: underline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffffff;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(9, 7, 97, 0.7)), to(rgba(9, 7, 97, 0.7)));
+  background: linear-gradient(0deg, rgba(9, 7, 97, 0.7), rgba(9, 7, 97, 0.7));
+  border-radius: 4px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  z-index: 2;
+}
+.sct_card_109__img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+.sct_card_109__img > span {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  background: #ffc78b;
+  padding: 4px 20px;
+  position: absolute;
+  left: 4%;
+  bottom: 4%;
+  border-radius: 20px;
+  z-index: 3;
+}
+.sct_card_109__desc {
+  padding: 4px 0 20px 12px;
+}
+.sct_card_109__desc a {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #2f2d51;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_109__desc a:hover {
+  text-decoration: underline;
+}
+.sct_card_109__desc__location svg {
+  margin-right: 20px;
+}
+@media (max-width: 425px) {
+  .sct_card_109__desc__location svg {
+    margin-right: 8px;
+  }
+}
+.sct_card_109__desc__location span {
+  font-size: 14px;
+  line-height: 20px;
+  color: #77838f;
+  padding-right: 20px;
+}
