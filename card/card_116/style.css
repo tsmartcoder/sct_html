@@ -1,0 +1,214 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_116 {
+  margin-top: 16px;
+  padding: 20px;
+}
+@media (max-width: 425px) {
+  .sct_card_116 {
+    padding: 4px;
+  }
+}
+.sct_card_116__iconArea {
+  max-width: 100%;
+  max-height: 100%;
+}
+.sct_card_116__iconArea svg {
+  width: 100%;
+  height: 100%;
+}
+.sct_card_116__timeArea h2 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 72px;
+  color: #2f2d51;
+  margin: 0;
+}
+@media (max-width: 425px) {
+  .sct_card_116__timeArea h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+.sct_card_116__timeArea p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #77838f;
+  margin: 4px 0 40px 0;
+}
+@media (max-width: 425px) {
+  .sct_card_116__timeArea p {
+    margin: 4px 0 20px 0;
+    line-height: 20px;
+  }
+}
+.sct_card_116__timeArea ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+@media (max-width: 425px) {
+  .sct_card_116__timeArea ul {
+    margin-top: 8px;
+  }
+}
+.sct_card_116__timeArea ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 40px;
+}
+.sct_card_116__timeArea ul li:last-child {
+  padding-right: 0;
+}
+@media (max-width: 425px) {
+  .sct_card_116__timeArea ul li {
+    padding-right: 12px;
+  }
+}
+.sct_card_116__timeArea ul li h4 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 43px;
+  color: #196ecd;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .sct_card_116__timeArea ul li h4 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+@media (max-width: 425px) {
+  .sct_card_116__timeArea ul li h4 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+.sct_card_116__timeArea ul li > span {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  color: #2f2d51;
+  margin-top: 8px;
+}
+@media (max-width: 768px) {
+  .sct_card_116__timeArea ul li > span {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 425px) {
+  .sct_card_116__timeArea ul li > span {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+.sct_card_116__timeArea__timeValue {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  padding: 20px;
+  background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #e7e7ec;
+}
+@media (max-width: 768px) {
+  .sct_card_116__timeArea__timeValue {
+    width: 70px;
+    height: 70px;
+  }
+}
+@media (max-width: 425px) {
+  .sct_card_116__timeArea__timeValue {
+    width: 50px;
+    height: 50px;
+  }
+}
+.sct_card_116__timeArea__inputArea {
+  margin-top: 32px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #e7e7ec;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+}
+.sct_card_116__timeArea__inputArea input {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+}
+.sct_card_116__timeArea__inputArea input::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 30px;
+  color: #77838f;
+}
+.sct_card_116__timeArea__inputArea input::-moz-placeholder {
+  font-size: 14px;
+  line-height: 30px;
+  color: #77838f;
+}
+.sct_card_116__timeArea__inputArea input:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 30px;
+  color: #77838f;
+}
+.sct_card_116__timeArea__inputArea input::-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 30px;
+  color: #77838f;
+}
+.sct_card_116__timeArea__inputArea input::placeholder {
+  font-size: 14px;
+  line-height: 30px;
+  color: #77838f;
+}
+.sct_card_116__timeArea__inputArea button {
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: capitalize;
+  color: #ffffff;
+  background: #090761;
+  padding: 16px 40px;
+  border-radius: 4px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_116__timeArea__inputArea button:hover {
+  background: red;
+}
+@media (max-width: 425px) {
+  .sct_card_116__timeArea__inputArea button {
+    padding: 8px 16px;
+  }
+}
