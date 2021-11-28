@@ -1,0 +1,70 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_114 {
+	margin-top: 10px;
+   padding: 20px;
+	border: 1px solid #e7e7ec;
+	box-sizing: border-box;
+	box-shadow: 0px 8px 15px rgba(140, 152, 164, 0.1);
+	border-radius: 4px;
+
+	&__profileArea {
+		margin-top: 8px;
+
+		&__profile {
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			padding: 8px;
+			background: #ffffff;
+			border: 1px solid #e7e7ec;
+			box-sizing: border-box;
+			box-shadow: 0px 8px 15px rgba(140, 152, 164, 0.1);
+
+			&__pic {
+				width: 100%;
+				height: 100%;
+				border-radius: 50%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				overflow: hidden;
+
+				img {
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+
+		&__name {
+			display: flex;
+			flex-direction: column;
+			margin-left: 12px;
+
+			> a {
+				font-weight: 600;
+				font-size: 16px;
+				line-height: 30px;
+				text-decoration: none;
+				color: #2f2d51;
+			}
+
+			> span {
+				font-size: 14px;
+				line-height: 30px;
+				color: #77838f;
+			}
+		}
+	}
+
+	p {
+		margin-top: 20px;
+		font-size: 16px;
+		line-height: 23px;
+		text-transform: capitalize;
+		color: #77838f;
+	}
+}
