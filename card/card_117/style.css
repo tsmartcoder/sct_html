@@ -13,6 +13,8 @@ body {
   border-radius: 4px;
   overflow: hidden;
   position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 .sct_card_117__img:hover .sct_card_117__img__effect {
   top: 0;
@@ -25,8 +27,8 @@ body {
 .sct_card_117__img__effect {
   position: absolute;
   border-radius: 4px;
-  top: -100;
-  left: -100;
+  top: -100%;
+  left: -100%;
   width: 100%;
   height: 100%;
   display: -webkit-box;
