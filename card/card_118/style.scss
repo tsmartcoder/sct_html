@@ -1,0 +1,45 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_118 {
+	padding: 20px;
+	background: #ffffff;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+	border-radius: 8px;
+	width: 100%;
+
+	.custom_input {
+		width: 100%;
+		display: flex;
+		align-items: center;
+
+		svg {
+			margin-right: 12px;
+		}
+		input {
+			width: 100%;
+			border: none;
+			outline: none;
+			padding: 4px 8px;
+
+			&::placeholder {
+				font-size: 15px;
+				line-height: 20px;
+				color: #696969;
+			}
+		}
+	}
+
+	button {
+		font-size: 15px;
+		line-height: 20px;
+		color: #ffffff;
+		background: #1967d2;
+		padding: 16px 28px;
+		white-space: nowrap;
+		border-radius: 8px;
+	}
+}

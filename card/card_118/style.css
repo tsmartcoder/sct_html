@@ -1,0 +1,67 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_118 {
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+          box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  border-radius: 8px;
+  width: 100%;
+}
+.sct_card_118 .custom_input {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sct_card_118 .custom_input svg {
+  margin-right: 12px;
+}
+.sct_card_118 .custom_input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 4px 8px;
+}
+.sct_card_118 .custom_input input::-webkit-input-placeholder {
+  font-size: 15px;
+  line-height: 20px;
+  color: #696969;
+}
+.sct_card_118 .custom_input input::-moz-placeholder {
+  font-size: 15px;
+  line-height: 20px;
+  color: #696969;
+}
+.sct_card_118 .custom_input input:-ms-input-placeholder {
+  font-size: 15px;
+  line-height: 20px;
+  color: #696969;
+}
+.sct_card_118 .custom_input input::-ms-input-placeholder {
+  font-size: 15px;
+  line-height: 20px;
+  color: #696969;
+}
+.sct_card_118 .custom_input input::placeholder {
+  font-size: 15px;
+  line-height: 20px;
+  color: #696969;
+}
+.sct_card_118 button {
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  background: #1967d2;
+  padding: 16px 28px;
+  white-space: nowrap;
+  border-radius: 8px;
+}
