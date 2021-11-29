@@ -1,0 +1,63 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_119 {
+	padding: 20px;
+	border: 1px solid #ecedf2;
+	box-sizing: border-box;
+	border-radius: 8px;
+	transition: 3s;
+
+	&:hover {
+		box-shadow: 0px 6px 15px rgb(64 79 104 / 20%);
+
+		.sct_card_119__svgIcon {
+			background: #1967d2;
+
+			svg {
+				color: #ffffff;
+			}
+		}
+
+		.sct_card_119__title {
+			p {
+				color: #1967d2;
+			}
+		}
+	}
+
+	&__svgIcon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: #ecedf2;
+		padding: 20px;
+		margin-right: 20px;
+		border-radius: 8px;
+		transition: 0.3s;
+
+		svg {
+			transition: 0.3s;
+		}
+	}
+
+	&__title {
+		transition: 0.3s;
+		p {
+			font-weight: 600;
+			font-size: 18px;
+			line-height: 24px;
+			margin: 0;
+			color: #202124;
+			transition: 0.3;
+		}
+
+		span {
+			font-size: 14px;
+			line-height: 19px;
+			color: #696969;
+			margin-top: 4px;
+		}
+	}
+}
