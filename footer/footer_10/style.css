@@ -1,0 +1,115 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_footer_10 {
+  /* widget_1 */
+  /* widget_2 to 5 */
+}
+.sct_footer_10 .widget_1 p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 20px 0 12px 0;
+}
+.sct_footer_10 .widget_1 p span {
+  display: block;
+  color: #1967d2;
+}
+.sct_footer_10 .widget_1 address {
+  font-size: 14px;
+  line-height: 30px;
+  color: #696969;
+}
+.sct_footer_10 .widget_2 h3,
+.sct_footer_10 .widget_3 h3,
+.sct_footer_10 .widget_4 h3,
+.sct_footer_10 .widget_5 h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #2f2d51;
+  margin-bottom: 20px;
+}
+.sct_footer_10 .widget_2 ul,
+.sct_footer_10 .widget_3 ul,
+.sct_footer_10 .widget_4 ul,
+.sct_footer_10 .widget_5 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.sct_footer_10 .widget_2 ul li a,
+.sct_footer_10 .widget_3 ul li a,
+.sct_footer_10 .widget_4 ul li a,
+.sct_footer_10 .widget_5 ul li a {
+  font-size: 14px;
+  line-height: 35px;
+  color: #696969;
+  text-decoration: none;
+  display: table;
+  overflow: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: relative;
+}
+.sct_footer_10 .widget_2 ul li a::after,
+.sct_footer_10 .widget_3 ul li a::after,
+.sct_footer_10 .widget_4 ul li a::after,
+.sct_footer_10 .widget_5 ul li a::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -25%;
+  width: 20%;
+  height: 3px;
+  background: #1967d2;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_footer_10 .widget_2 ul li a:hover,
+.sct_footer_10 .widget_3 ul li a:hover,
+.sct_footer_10 .widget_4 ul li a:hover,
+.sct_footer_10 .widget_5 ul li a:hover {
+  color: #1967d2;
+  margin-left: 30px;
+  overflow: visible;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* copyright section */
+.sct_footer_10__copyRight__section {
+  border-top: 1px solid #ccc;
+}
+
+.sct_footer_10__copyRight {
+  padding: 24px 0;
+}
+.sct_footer_10__copyRight > span {
+  font-size: 14px;
+  line-height: 20px;
+  color: #77838f;
+}
+.sct_footer_10__copyRight__menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.sct_footer_10__copyRight__menu li {
+  padding: 0 12px;
+}
+.sct_footer_10__copyRight__menu li a {
+  text-decoration: none;
+}
+.sct_footer_10__copyRight__menu li a svg {
+  color: #696969;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_footer_10__copyRight__menu li a svg:hover {
+  color: #bc91e8;
+}
