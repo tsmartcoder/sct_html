@@ -1,0 +1,99 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_callToAction_11__section {
+  background: #302ea7;
+}
+
+.sct_callToAction_11 {
+  padding: 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 425px) {
+  .sct_callToAction_11 {
+    padding: 20px 12px;
+  }
+}
+.sct_callToAction_11 h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 41px;
+  color: #ffffff;
+  margin: 0;
+}
+@media (max-width: 425px) {
+  .sct_callToAction_11 h2 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+.sct_callToAction_11 p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  margin: 20px 0;
+}
+@media (max-width: 425px) {
+  .sct_callToAction_11 p {
+    margin: 12px 0;
+  }
+}
+@media (max-width: 425px) {
+  .sct_callToAction_11__btnArea {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.sct_callToAction_11__btnArea button {
+  border: none;
+  outline: none;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  background: #f9ab00;
+  padding: 16px 36px;
+  border-radius: 8px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+@media (max-width: 425px) {
+  .sct_callToAction_11__btnArea button {
+    padding: 16px 28px;
+  }
+}
+.sct_callToAction_11__btnArea button:last-child {
+  padding: 16px 48px;
+  margin-left: 28px;
+}
+@media (max-width: 425px) {
+  .sct_callToAction_11__btnArea button:last-child {
+    padding: 16px 28px;
+    margin-top: 12px;
+    margin-left: 0;
+  }
+}
+.sct_callToAction_11__btnArea button:hover {
+  background: #ffffff;
+  color: #1967d2;
+}
