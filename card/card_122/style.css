@@ -1,0 +1,77 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_122 {
+  padding: 0 12px;
+  background: #f0f5f7;
+  border-radius: 8px;
+}
+@media (max-width: 425px) {
+  .sct_card_122 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+.sct_card_122__textArea {
+  padding-left: 40px;
+}
+@media (max-width: 425px) {
+  .sct_card_122__textArea {
+    margin-top: 20px;
+  }
+}
+.sct_card_122__textArea h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 41px;
+  color: #202124;
+  margin: 0;
+}
+@media (max-width: 425px) {
+  .sct_card_122__textArea h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+.sct_card_122__textArea p {
+  font-size: 15px;
+  line-height: 24px;
+  color: #696969;
+  margin: 12px 0 24px 0;
+}
+@media (max-width: 425px) {
+  .sct_card_122__textArea p {
+    margin: 8px 0 16px 0;
+  }
+}
+.sct_card_122__textArea button {
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  background: #1967d2;
+  padding: 16px 40px;
+  border-radius: 8px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_122__textArea button:hover {
+  background: red;
+}
+@media (max-width: 425px) {
+  .sct_card_122__textArea button {
+    padding: 12px 32px;
+  }
+}
+.sct_card_122__iconArea {
+  width: 100%;
+  height: 100%;
+}
+.sct_card_122__iconArea svg {
+  width: 100%;
+  height: 100%;
+}
