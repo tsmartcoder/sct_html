@@ -1,0 +1,19 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_widget_32 p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 20px 0 12px 0;
+}
+.sct_widget_32 p span {
+  display: block;
+  color: #1967d2;
+}
+.sct_widget_32 address {
+  font-size: 14px;
+  line-height: 30px;
+  color: #696969;
+}
