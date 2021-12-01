@@ -1,0 +1,130 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_130 {
+	padding: 40px;
+	border: 1px solid #ecedf2;
+	box-sizing: border-box;
+	border-radius: 8px;
+	text-align: center;
+	transition: 0.3s;
+	position: relative;
+
+	&:hover {
+		.sct_card_130__private,
+		.sct_card_130__urgent {
+			opacity: 1;
+		}
+	}
+
+	&__profile {
+		width: 90px;
+		height: 90px;
+		border-radius: 50%;
+		overflow: hidden;
+		margin: 0 auto;
+
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	&__category {
+		font-size: 14px;
+		line-height: 19px;
+		color: #34a853;
+		margin: 12px 0 8px 0;
+		display: block;
+	}
+
+	h4 {
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 26px;
+		color: #202124;
+		margin-bottom: 12px;
+	}
+
+	&__location {
+		margin: 12px 0 20px 0;
+		font-size: 14px;
+		line-height: 19px;
+		color: #696969;
+		margin-bottom: 20px;
+		display: block;
+
+		svg {
+			margin-right: 12px;
+		}
+	}
+
+	ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		justify-content: space-between;
+
+		li {
+			a {
+				text-decoration: none;
+				font-size: 14px;
+				line-height: 20px;
+				color: #696969;
+				background: #f0f5f7;
+				padding: 8px 20px;
+				border-radius: 30px;
+				transition: 0.3s;
+
+				&:hover {
+					background: #34a853;
+					color: #ffffff;
+				}
+			}
+		}
+	}
+
+	&__private {
+		font-size: 13px;
+		line-height: 17px;
+		color: #34a853;
+		background: #e1f2e5;
+		padding: 6px 20px;
+		border-radius: 0px 60px 60px 0px;
+		display: table;
+		position: absolute;
+		opacity: 0;
+		transition: 0.3s;
+		top: 2%;
+		left: 0;
+	}
+	&__urgent {
+		font-size: 13px;
+		line-height: 17px;
+		color: #f9ab00;
+		background: #fef2d9;
+		padding: 6px 20px;
+		border-radius: 0px 60px 60px 0px;
+		display: table;
+		position: absolute;
+		opacity: 0;
+		transition: 0.3s;
+		top: 12%;
+		left: 0;
+	}
+
+	&__time {
+		font-size: 13px;
+		line-height: 17px;
+		color: #1967d2;
+		background: #dde8f8;
+		padding: 6px 20px;
+		border-radius: 60px;
+		display: table;
+		position: absolute;
+		top: 2%;
+		right: 2%;
+	}
+}
