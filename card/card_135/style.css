@@ -1,0 +1,34 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_135 {
+  margin-top: 20px;
+}
+.sct_card_135__img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.sct_card_135__img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+.sct_card_135__img__text {
+  position: absolute;
+  left: 4%;
+  bottom: 4%;
+}
+.sct_card_135__img__text p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0;
+}
+.sct_card_135__img__text span {
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+}
