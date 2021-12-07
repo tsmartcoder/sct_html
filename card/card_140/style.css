@@ -1,0 +1,57 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_140 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 32px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_140:hover {
+  background: #9073ec;
+  border-radius: 8px;
+}
+.sct_card_140:hover .sct_card_140__svgIcon svg {
+  color: #ffffff;
+}
+.sct_card_140:hover .sct_card_140__title p,
+.sct_card_140:hover .sct_card_140__title span {
+  color: #ffffff;
+}
+.sct_card_140__svgIcon svg {
+  color: #1967d2;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_140__title {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_140__title p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #202124;
+  margin: 20px 0 4px 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_140__title span {
+  font-size: 14px;
+  line-height: 19px;
+  color: #696969;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
