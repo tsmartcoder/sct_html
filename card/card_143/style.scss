@@ -1,0 +1,88 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_143 {
+	border-radius: 8px;
+	padding: 20px;
+	box-shadow: 0 0 2px 2px #ccc;
+
+	&__category {
+		&__svg {
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			background: #e8f0fb;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		span {
+			margin-left: 12px;
+			font-size: 14px;
+			line-height: 20px;
+			color: #202124;
+		}
+	}
+
+	h4 {
+		font-size: 18px;
+		line-height: 30px;
+		color: #202124;
+		margin: 16px 0 12px 0;
+	}
+
+	&__location {
+		display: flex;
+		align-items: center;
+
+		span {
+			svg {
+				margin-right: 10px;
+			}
+			font-size: 14px;
+			line-height: 20px;
+			color: #696969;
+		}
+
+		&__time {
+			margin-left: 20px;
+			font-size: 14px;
+			line-height: 20px;
+			color: #1967d2 !important;
+		}
+	}
+
+	&__sponser {
+		margin-top: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		&__name {
+			span,
+			p {
+				font-size: 13px;
+				line-height: 18px;
+				color: #696969;
+			}
+
+			p {
+				font-weight: bold;
+				color: #202124;
+			}
+		}
+
+		&__logo {
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background: #ff3365;
+			overflow: hidden;
+		}
+	}
+}

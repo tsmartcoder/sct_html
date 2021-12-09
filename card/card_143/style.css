@@ -1,0 +1,97 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_143 {
+  border-radius: 8px;
+  padding: 20px;
+  -webkit-box-shadow: 0 0 2px 2px #ccc;
+          box-shadow: 0 0 2px 2px #ccc;
+}
+.sct_card_143__category__svg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #e8f0fb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.sct_card_143__category span {
+  margin-left: 12px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #202124;
+}
+.sct_card_143 h4 {
+  font-size: 18px;
+  line-height: 30px;
+  color: #202124;
+  margin: 16px 0 12px 0;
+}
+.sct_card_143__location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sct_card_143__location span {
+  font-size: 14px;
+  line-height: 20px;
+  color: #696969;
+}
+.sct_card_143__location span svg {
+  margin-right: 10px;
+}
+.sct_card_143__location__time {
+  margin-left: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1967d2 !important;
+}
+.sct_card_143__sponser {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.sct_card_143__sponser__name span,
+.sct_card_143__sponser__name p {
+  font-size: 13px;
+  line-height: 18px;
+  color: #696969;
+}
+.sct_card_143__sponser__name p {
+  font-weight: bold;
+  color: #202124;
+}
+.sct_card_143__sponser__logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #ff3365;
+  overflow: hidden;
+}
