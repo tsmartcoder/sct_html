@@ -1,0 +1,52 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_widget_34 {
+	background: #f5f7fc;
+	border-radius: 8px;
+	padding: 28px;
+
+	h4 {
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 24px;
+		color: #202124;
+		margin: 0;
+		margin-bottom: 32px;
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			display: flex;
+			align-items: start;
+			padding-bottom: 8px;
+
+			svg {
+				margin-top: 4px;
+			}
+		}
+	}
+
+	&__category {
+		margin-left: 20px;
+
+		p {
+			font-weight: 600;
+			font-size: 16px;
+			line-height: 20px;
+			color: #202124;
+			margin: 0;
+		}
+
+		span {
+			font-size: 16px;
+			line-height: 30px;
+			color: #696969;
+		}
+	}
+}
