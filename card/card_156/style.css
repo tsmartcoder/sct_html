@@ -1,0 +1,179 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_156 {
+  padding: 32px;
+  border: 1px solid #ecedf2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: relative;
+}
+.sct_card_156:hover {
+  -webkit-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+          box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+}
+.sct_card_156:hover .sct_card_156__featured,
+.sct_card_156:hover .sct_card_156__svg {
+  opacity: 1;
+}
+.sct_card_156__profileArea__profile {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.sct_card_156__profileArea__profile img {
+  width: 100%;
+  height: 100%;
+}
+.sct_card_156__profileArea__desc {
+  margin-top: 12px;
+}
+.sct_card_156__profileArea__desc h4 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.sct_card_156__profileArea__desc span {
+  font-size: 14px;
+  line-height: 20px;
+  color: #1967d2;
+  text-align: center;
+  display: block;
+}
+.sct_card_156__profileArea__desc__features {
+  list-style-type: none;
+  padding: 0;
+  margin: 12px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 8px 0 12px 0;
+}
+@media (max-width: 768px) {
+  .sct_card_156__profileArea__desc__features {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.sct_card_156__profileArea__desc__features li {
+  padding-right: 20px;
+}
+.sct_card_156__profileArea__desc__features li:last-child {
+  padding-right: none;
+}
+.sct_card_156__profileArea__desc__features li a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 19px;
+  color: #696969;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_156__profileArea__desc__features li a:hover {
+  color: #1967d2;
+}
+.sct_card_156__profileArea__desc__features li a svg {
+  margin-right: 12px;
+  color: #696969;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_156__profileArea__desc__features li a svg:hover {
+  color: #1967d2;
+}
+.sct_card_156__profileArea__desc__category {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (max-width: 768px) {
+  .sct_card_156__profileArea__desc__category {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.sct_card_156__profileArea__desc__category li {
+  padding-right: 12px;
+}
+.sct_card_156__profileArea__desc__category li:last-child {
+  padding-right: none;
+}
+.sct_card_156__profileArea__desc__category li a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 19px;
+  color: #696969;
+  background: #f0f5f7;
+  padding: 6px 20px;
+  border-radius: 30px;
+}
+.sct_card_156 > a {
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 20px;
+  color: #1967d2;
+  background: #eff4fc;
+  border-radius: 8px;
+  padding: 16px 0;
+  width: 100%;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_156 > a:hover {
+  background: #1967d2;
+  color: #ffffff;
+}
+.sct_card_156__featured {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.sct_card_156__featured a {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 16px;
+  color: #34a853;
+  background: #000;
+  background: #e1f2e5;
+  padding: 6px 20px;
+  border-radius: 60px;
+  display: block;
+}
+.sct_card_156__svg {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #ecedf2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0;
+}
