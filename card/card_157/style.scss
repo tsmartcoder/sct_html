@@ -1,0 +1,37 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.sct_card_157 {
+	padding: 28px;
+	background: #ffffff;
+	border: 1px solid #ecedf2;
+	box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+	border-radius: 8px;
+
+	&__svg {
+		width: 70px;
+		height: 70px;
+		border-radius: 4px;
+		background: #e8f0fb;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__desc {
+		h2 {
+			font-weight: 600;
+			font-size: 30px;
+			line-height: 41px;
+			color: #1967d2;
+			margin: 0;
+		}
+
+		span {
+			font-size: 15px;
+			line-height: 20px;
+			color: #202124;
+		}
+	}
+}
