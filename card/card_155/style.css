@@ -117,8 +117,10 @@ body {
   padding: 6px 20px;
   border-radius: 30px;
 }
-.sct_card_155__profileLink {
-  width: 100%;
+@media (max-width: 768px) {
+  .sct_card_155__profileLink {
+    width: 100%;
+  }
 }
 .sct_card_155__profileLink__svg {
   width: 30px;

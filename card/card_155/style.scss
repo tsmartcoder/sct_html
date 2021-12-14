@@ -121,7 +121,9 @@ body {
 	}
 
 	&__profileLink {
-		width: 100%;
+		@media (max-width: 768px) {
+			width: 100%;
+		}
 		&__svg {
 			width: 30px;
 			height: 30px;
