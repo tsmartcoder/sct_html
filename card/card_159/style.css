@@ -1,0 +1,70 @@
+@charset "UTF-8";
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_159 {
+  margin-top: 20px;
+  padding: 28px;
+  background: #f5f7fc;
+  border-radius: 8px;
+}
+.sct_card_159 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.sct_card_159 ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+.sct_card_159 ul li label {
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 50px;
+  color: #202124;
+}
+.sct_card_159 ul li label span {
+  font-size: 14px;
+  line-height: 24px;
+  color: #696969;
+  display: block;
+}
+.sct_card_159 .checkbox {
+  margin-top: 20px;
+  position: relative;
+}
+.sct_card_159 .checkbox::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #ecedf2;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+.sct_card_159 .checkbox:checked::before {
+  background-color: #1967d2;
+  border: 1px solid #1967d2;
+}
+.sct_card_159 .checkbox:checked::after {
+  position: absolute;
+  content: "✓";
+  font-family: "FontAwesome";
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
