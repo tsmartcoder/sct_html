@@ -1,0 +1,43 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_161 {
+  background: #f5f7fc;
+  border-radius: 8px;
+  padding: 60px;
+}
+.sct_card_161 p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #696969;
+  margin: 0;
+}
+.sct_card_161 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.sct_card_161 ul li {
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+  background: #ffffff;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.sct_card_161 ul li:last-child {
+  margin-right: 0;
+}
