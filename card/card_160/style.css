@@ -1,0 +1,139 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sct_card_160 {
+  padding: 40px;
+  background: #ffffff;
+  border: 1px solid #ecedf2;
+  -webkit-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+          box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  border-radius: 8px;
+}
+@media (max-width: 425px) {
+  .sct_card_160 {
+    padding: 8px;
+  }
+}
+.sct_card_160__searchArea {
+  background: #f0f5f7;
+  padding: 12px;
+  border-radius: 8px;
+}
+.sct_card_160__searchArea svg {
+  margin-right: 12px;
+}
+@media (max-width: 425px) {
+  .sct_card_160__searchArea svg {
+    margin-right: 4px;
+  }
+}
+.sct_card_160__searchArea input {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 12px;
+}
+.sct_card_160__searchArea input::-webkit-input-placeholder {
+  font-size: 15px;
+  line-height: 20px;
+  color: #696969;
+}
+.sct_card_160__searchArea input::-moz-placeholder {
+  font-size: 15px;
+  line-height: 20px;
+  color: #696969;
+}
+.sct_card_160__searchArea input:-ms-input-placeholder {
+  font-size: 15px;
+  line-height: 20px;
+  color: #696969;
+}
+.sct_card_160__searchArea input::-ms-input-placeholder {
+  font-size: 15px;
+  line-height: 20px;
+  color: #696969;
+}
+.sct_card_160__searchArea input::placeholder {
+  font-size: 15px;
+  line-height: 20px;
+  color: #696969;
+}
+@media (max-width: 425px) {
+  .sct_card_160__searchArea input {
+    padding: 8px;
+  }
+}
+.sct_card_160 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.sct_card_160 ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 8px;
+}
+.sct_card_160__profileArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sct_card_160__profileArea__profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.sct_card_160__profileArea__profile img {
+  width: 100%;
+  height: 100%;
+}
+.sct_card_160__profileArea__name {
+  margin-left: 20px;
+}
+.sct_card_160__profileArea__name a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #202124;
+  display: block;
+}
+.sct_card_160__profileArea__name span {
+  font-size: 14px;
+  line-height: 20px;
+  color: #696969;
+}
+.sct_card_160__timeArea span {
+  font-size: 14px;
+  line-height: 20px;
+  display: block;
+}
+.sct_card_160__timeArea small {
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 12px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
